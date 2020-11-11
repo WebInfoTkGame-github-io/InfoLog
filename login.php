@@ -217,13 +217,13 @@
         </ul>
         </div>
         </nav>
-<div class="w3-container w3-padding-64 box" id="contact">
+<div class="w3-container w3-padding-64 box hod" id="contact">
 	<h1>Membuat 
-    <span class="hod">L</span>
-    <span class="hod">o</span>
-    <span class="hod">g</span>
-    <span class="hod">i</span>
-    <span class="hod">n</span>
+    <span>L</span>
+    <span>o</span>
+    <span>g</span>
+    <span>i</span>
+    <span>n</span>
       Anda</h1>
 	<h3>Masukan data:</h3>
 	<form action="login2.php" method="post">		
