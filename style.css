@@ -64,6 +64,11 @@ transform: rotateY(180deg);
 .tentang{
     margin-top: 20px;
 }
+.teks{
+    position: absolute;
+}
 .hero{
+    margin-left: 600px;
     width: 600px;
+    position: relative;
 }
