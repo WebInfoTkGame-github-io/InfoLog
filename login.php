@@ -56,12 +56,13 @@
 
         .box h2{
             margin: 0 0 30px;
-            padding: 0;
+            padding: 10px;
             color: purple;
             text-align: center;
         }
         .box .inputBox {
             position: relative;
+            padding: 10px;
         }
         .box .inputBox input{
             width: 100%;
@@ -76,7 +77,7 @@
             background: transparent;
         }
         .box .inputBox label {
-            position: absolute center;
+            position: absolute;
             top: 0;
             left: 0;
             letter-spacing: 1px;
@@ -216,14 +217,13 @@
         </ul>
         </div>
         </nav>
-<center>
-<div class="w3-container w3-padding-64 box" id="contact">
+<div class="w3-container w3-padding-64 box hod" id="contact">
 	<h1>Membuat 
-    <span class="hod">L</span>
-    <span class="hod">o</span>
-    <span class="hod">g</span>
-    <span class="hod">i</span>
-    <span class="hod">n</span>
+    <span>L</span>
+    <span>o</span>
+    <span>g</span>
+    <span>i</span>
+    <span>n</span>
       Anda</h1>
 	<h3>Masukan data:</h3>
 	<form action="login2.php" method="post">		
@@ -232,6 +232,5 @@
             <div class="inputBox"><p><button type="submit" value="Log In" name="login">Log In</button></p></div>
 	</form>
 </div>
-</center>
 </body>
 </html>
