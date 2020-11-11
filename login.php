@@ -57,7 +57,7 @@
         .box h2{
             margin: 0 0 30px;
             padding: 0;
-            color: #fff;
+            color: purple;
             text-align: center;
         }
         .box .inputBox {
@@ -67,22 +67,22 @@
             width: 100%;
             padding: 10px 0;
             font-size: 16px;
-            color: #fff;
+            color: purple;
             letter-spacing: 1px;
             margin-bottom: 30px;
             border: none;
-            border-bottom: 1px solid #fff;
+            border-bottom: 1px solid purple;
             outline: none;
             background: transparent;
         }
         .box .inputBox label {
-            position: absolute;
+            position: absolute center;
             top: 0;
             left: 0;
             letter-spacing: 1px;
             padding: 10px 0;
             font-size: 16px;
-            color: #fff;
+            color: purple;
             pointer-events: none;
             transition: .5s;
         }
@@ -97,7 +97,7 @@
             background: transparent;
             border: none;
             outline: none;
-            color: #fff;
+            color: purple;
             background: #03a9f4;
             padding: 10px 20px;
             cursor: pointer;
@@ -105,7 +105,7 @@
         }
         .hod {
             font-family: 'Bad Script', cursive;
-            color: #111;
+            color: lightblue;
             font-size: 45px;
             margin: 0;
             padding: 0;
@@ -133,7 +133,7 @@
         }
         @keyframes animate1 {
     0%,100%{
-        color: #fff;
+        color: darkblue;
         filter: blur(2px);
         text-shadow: 0 0 10px blueviolet,
                      0 0 20px blueviolet,
@@ -142,7 +142,7 @@
                      0 0 80px blueviolet;
                     }
     5%,95%{
-        color: #111;
+        color: lightgreen;
         filter: blur(0px);
         text-shadow: none;
     }
@@ -216,6 +216,7 @@
         </ul>
         </div>
         </nav>
+<center>
 <div class="w3-container w3-padding-64 box" id="contact">
 	<h1>Membuat 
     <span class="hod">L</span>
@@ -223,13 +224,14 @@
     <span class="hod">g</span>
     <span class="hod">i</span>
     <span class="hod">n</span>
-     Anda</h1>
+      Anda</h1>
 	<h3>Masukan data:</h3>
 	<form action="login2.php" method="post">		
-            <div class="inputBox"><p><input type="email" name="email" required=""><label>Email</label></p></div>
-            <div class="inputBox"><p><input type="password" name="password" required=""><label>Password</label></p></div>
+            <div class="inputBox"><p><input type="email" class="col-sm-5" name="email" required=""><label>Email</label></p></div>
+            <div class="inputBox"><p><input type="password" class="col-sm-5" name="password" required=""><label>Password</label></p></div>
             <div class="inputBox"><p><button type="submit" value="Log In" name="login">Log In</button></p></div>
 	</form>
 </div>
+</center>
 </body>
 </html>
