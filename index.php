@@ -8,53 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        body{
-            height:5000px;
-        }
-        .flip-card {
-        background-color: transparent;
-        width: 250px;
-        height: 250px;
-        margin:20px;
-        perspective: 1000px;
-        }
-
-        .flip-card-inner {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        transition: transform 0.6s;
-        transform-style: preserve-3d;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        }
-
-        .flip-card:hover .flip-card-inner {
-        transform: rotateY(180deg);
-        }
-
-        .flip-card-front, .flip-card-back {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-        }
-
-        .flip-card-front {
-        background-color: #bbb;
-        color: black;
-        }
-
-        .flip-card-back {
-        background-color: #2980b9;
-        color: white;
-        transform: rotateY(180deg);
-        }
-
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 
     <title>Web Info Tourney</title>
   </head>
@@ -143,7 +97,7 @@
                             <img style="width:250px;height:250px;" src="images/ml.jpg" alt="Mobile legends">
                         </div>
                         <div class="flip-card-back">
-                            <h1>Mobile Legends</h1> 
+                            <h4>Mobile Legends</h4> 
                             <p>Architect & Engineer</p> 
                         </div>
                     </div>
@@ -156,7 +110,7 @@
                             <img style="width:250px;height:250px;" src="images/pubg.png" alt="pubg">
                         </div>
                         <div class="flip-card-back">
-                            <h1>PUBG Mobile</h1> 
+                            <h4>PUBG Mobile</h4> 
                             <p>Architect & Engineer</p> 
                         </div>
                     </div>
@@ -169,7 +123,7 @@
                             <img style="width:250px;height:250px;" src="images/ff.png" alt="Mobile legends">
                         </div>
                         <div class="flip-card-back">
-                            <h1>Free Fire</h1> 
+                            <h4>Free Fire</h4> 
                             <p>Architect & Engineer</p> 
                         </div>
                     </div>
@@ -182,7 +136,7 @@
                             <img style="width:250px;height:250px;" src="images/cod.jpg" alt="Mobile legends">
                         </div>
                         <div class="flip-card-back">
-                            <h1>Call of Duty</h1> 
+                            <h4>Call of Duty</h4> 
                             <p>Architect & Engineer</p> 
                         </div>
                     </div>
@@ -195,7 +149,7 @@
                             <img style="width:250px;height:250px;" src="images/aov.png" alt="Mobile legends">
                         </div>
                         <div class="flip-card-back">
-                            <h1>Arena of Valor</h1> 
+                            <h4>Arena of Valor</h4> 
                             <p>Architect & Engineer</p> 
                         </div>
                     </div>
@@ -208,7 +162,7 @@
                             <img style="width:250px;height:250px;" src="images/coc.png" alt="Mobile legends">
                         </div>
                         <div class="flip-card-back">
-                            <h1>Clash of Clans</h1> 
+                            <h4>Clash of Clans</h4> 
                             <p>Architect & Engineer</p> 
                         </div>
                     </div>
@@ -221,7 +175,7 @@
                             <img style="width:250px;height:250px;" src="images/cr.jpg" alt="Mobile legends">
                         </div>
                         <div class="flip-card-back">
-                            <h1>Clash Royale</h1> 
+                            <h4>Clash Royale</h4> 
                             <p>Architect & Engineer</p> 
                         </div>
                     </div>
@@ -234,7 +188,111 @@
                             <img style="width:250px;height:250px;" src="images/pes.png" alt="Mobile legends">
                         </div>
                         <div class="flip-card-back">
-                            <h1>PES E-Football</h1> 
+                            <h4>PES E-Football</h4> 
+                            <p>Architect & Engineer</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/ac.jpg" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Auto Chess</h4> 
+                            <p>Architect & Engineer</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/au.png" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Among Us</h4> 
+                            <p>Architect & Engineer</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/bs.png" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Brawl Stars</h4> 
+                            <p>Architect & Engineer</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/ches.png" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Magic Chess</h4> 
+                            <p>Architect & Engineer</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/cs.png" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>CS:GO</h4> 
+                            <p>Architect & Engineer</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/dota2.jpg" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Dota 2</h4> 
+                            <p>Architect & Engineer</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/ros.png" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Rules of Survival</h4> 
+                            <p>Architect & Engineer</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/vl.png" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Valorant</h4> 
                             <p>Architect & Engineer</p> 
                         </div>
                     </div>
