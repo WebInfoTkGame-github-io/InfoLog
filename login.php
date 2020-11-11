@@ -76,7 +76,7 @@
             background: transparent;
         }
         .box .inputBox label {
-            position: absolute;
+            position: absolute center;
             top: 0;
             left: 0;
             letter-spacing: 1px;
