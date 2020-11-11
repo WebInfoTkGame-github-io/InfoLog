@@ -56,16 +56,17 @@
 
         .box h2{
             margin: 0 0 30px;
-            padding: 0;
+            padding: 10px;
             color: purple;
             text-align: center;
         }
         .box .inputBox {
             position: relative;
+            padding: 10px;
         }
         .box .inputBox input{
             width: 100%;
-            padding: 10px 0;
+            padding: 10px;
             font-size: 16px;
             color: purple;
             letter-spacing: 1px;
@@ -76,11 +77,11 @@
             background: transparent;
         }
         .box .inputBox label {
-            position: absolute center;
+            position: absolute;
             top: 0;
             left: 0;
             letter-spacing: 1px;
-            padding: 10px 0;
+            padding: 10px;
             font-size: 16px;
             color: purple;
             pointer-events: none;
@@ -216,7 +217,6 @@
         </ul>
         </div>
         </nav>
-<center>
 <div class="w3-container w3-padding-64 box" id="contact">
 	<h1>Membuat 
     <span class="hod">L</span>
@@ -232,6 +232,5 @@
             <div class="inputBox"><p><button type="submit" value="Log In" name="login">Log In</button></p></div>
 	</form>
 </div>
-</center>
 </body>
 </html>
