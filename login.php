@@ -62,11 +62,11 @@
         }
         .box .inputBox {
             position: relative;
-            padding: 10px;
+            padding: 0px 0px 0px 10px;
         }
         .box .inputBox input{
             width: 100%;
-            padding: 10px 0;
+            padding: 10px 0px 0px 10px;
             font-size: 16px;
             color: purple;
             letter-spacing: 1px;
@@ -81,7 +81,7 @@
             top: 0;
             left: 0;
             letter-spacing: 1px;
-            padding: 10px 0;
+            padding: 10px 0px 0px 10px;
             font-size: 16px;
             color: purple;
             pointer-events: none;
