@@ -62,7 +62,7 @@
         }
         .box .inputBox {
             position: relative;
-            padding: 10px;
+            padding: 0px 0px 0px 10px;
         }
         .box .inputBox input{
             width: 100%;
