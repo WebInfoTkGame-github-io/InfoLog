@@ -114,7 +114,7 @@
         .hod span {
             margin: 0;
             padding: 0;
-            animation: animate1 4s linear infinite;
+            animation: animate1 2s linear infinite;
         }
         .hod span:nth-child(1){
             animation-delay: 0s;
