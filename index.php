@@ -98,7 +98,9 @@
                         </div>
                         <div class="flip-card-back">
                             <h4>Mobile Legends</h4> 
-                            <p>Architect & Engineer</p> 
+                            <a href="#" class="button">
+                                Cari Tournament
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -111,7 +113,9 @@
                         </div>
                         <div class="flip-card-back">
                             <h4>PUBG Mobile</h4> 
-                            <p>Architect & Engineer</p> 
+                            <a href="#" class="button">
+                                Cari Tournament
+                            </a> 
                         </div>
                     </div>
                 </div>
@@ -124,7 +128,9 @@
                         </div>
                         <div class="flip-card-back">
                             <h4>Free Fire</h4> 
-                            <p>Architect & Engineer</p> 
+                            <a href="#" class="button">
+                                Cari Tournament
+                            </a> 
                         </div>
                     </div>
                 </div>
@@ -137,7 +143,9 @@
                         </div>
                         <div class="flip-card-back">
                             <h4>Call of Duty</h4> 
-                            <p>Architect & Engineer</p> 
+                            <a href="#" class="button">
+                                Cari Tournament
+                            </a> 
                         </div>
                     </div>
                 </div>
@@ -150,7 +158,9 @@
                         </div>
                         <div class="flip-card-back">
                             <h4>Arena of Valor</h4> 
-                            <p>Architect & Engineer</p> 
+                            <a href="#" class="button">
+                                Cari Tournament
+                            </a> 
                         </div>
                     </div>
                 </div>
@@ -163,7 +173,9 @@
                         </div>
                         <div class="flip-card-back">
                             <h4>Clash of Clans</h4> 
-                            <p>Architect & Engineer</p> 
+                            <a href="#" class="button">
+                                Cari Tournament
+                            </a> 
                         </div>
                     </div>
                 </div>
@@ -176,7 +188,9 @@
                         </div>
                         <div class="flip-card-back">
                             <h4>Clash Royale</h4> 
-                            <p>Architect & Engineer</p> 
+                            <a href="#" class="button">
+                                Cari Tournament
+                            </a> 
                         </div>
                     </div>
                 </div>
@@ -189,7 +203,9 @@
                         </div>
                         <div class="flip-card-back">
                             <h4>PES E-Football</h4> 
-                            <p>Architect & Engineer</p> 
+                            <a href="#" class="button">
+                                Cari Tournament
+                            </a> 
                         </div>
                     </div>
                 </div>
@@ -202,7 +218,9 @@
                         </div>
                         <div class="flip-card-back">
                             <h4>Auto Chess</h4> 
-                            <p>Architect & Engineer</p> 
+                            <a href="#" class="button">
+                                Cari Tournament
+                            </a> 
                         </div>
                     </div>
                 </div>
@@ -215,7 +233,9 @@
                         </div>
                         <div class="flip-card-back">
                             <h4>Among Us</h4> 
-                            <p>Architect & Engineer</p> 
+                            <a href="#" class="button">
+                                Cari Tournament
+                            </a> 
                         </div>
                     </div>
                 </div>
@@ -228,7 +248,9 @@
                         </div>
                         <div class="flip-card-back">
                             <h4>Brawl Stars</h4> 
-                            <p>Architect & Engineer</p> 
+                            <a href="#" class="button">
+                                Cari Tournament
+                            </a> 
                         </div>
                     </div>
                 </div>
@@ -241,7 +263,9 @@
                         </div>
                         <div class="flip-card-back">
                             <h4>Magic Chess</h4> 
-                            <p>Architect & Engineer</p> 
+                            <a href="#" class="button">
+                                Cari Tournament
+                            </a> 
                         </div>
                     </div>
                 </div>
@@ -254,7 +278,9 @@
                         </div>
                         <div class="flip-card-back">
                             <h4>CS:GO</h4> 
-                            <p>Architect & Engineer</p> 
+                            <a href="#" class="button">
+                                Cari Tournament
+                            </a> 
                         </div>
                     </div>
                 </div>
@@ -267,7 +293,9 @@
                         </div>
                         <div class="flip-card-back">
                             <h4>Dota 2</h4> 
-                            <p>Architect & Engineer</p> 
+                            <a href="#" class="button">
+                                Cari Tournament
+                            </a> 
                         </div>
                     </div>
                 </div>
@@ -280,7 +308,9 @@
                         </div>
                         <div class="flip-card-back">
                             <h4>Rules of Survival</h4> 
-                            <p>Architect & Engineer</p> 
+                            <a href="#" class="button">
+                                Cari Tournament
+                            </a> 
                         </div>
                     </div>
                 </div>
@@ -293,7 +323,9 @@
                         </div>
                         <div class="flip-card-back">
                             <h4>Valorant</h4> 
-                            <p>Architect & Engineer</p> 
+                            <a href="#" class="button">
+                                Cari Tournament
+                            </a> 
                         </div>
                     </div>
                 </div>
