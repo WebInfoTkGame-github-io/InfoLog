@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/sh.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 
     <title>Web Info Tourney</title>
@@ -335,6 +336,29 @@
     </div>
 </section>
 <!-- akhir content -->
+<!-- Tentang kami -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="tentang">
+                    <h1>Tentang Kami</h1>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis consequuntur sed beatae dolore modi fuga ut laborum distinctio sit blanditiis quaerat est numquam soluta, corrupti esse laboriosam velit facere? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quas molestiae modi voluptatum tempora aperiam in, enim quam! Sequi facere, totam veniam incidunt debitis architecto temporibus perferendis! Dolor, a impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae magni iusto aliquam soluta facilis esse minus beatae corporis tempora veritatis ad et cum distinctio iure blanditiis, id dolores nobis at.</p>
+
+            </div>
+            <div class="col-sm-6">
+                <img class="hero" src="images/hero.png" alt="hero">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- akhir tentang kami -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 

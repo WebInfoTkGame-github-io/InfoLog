@@ -61,5 +61,9 @@ transform: rotateY(180deg);
     text-decoration: none;
     padding: 20px;
 }
-
-    
+.tentang{
+    margin-top: 20px;
+}
+.hero{
+    width: 600px;
+}
