@@ -348,7 +348,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6 teks">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis consequuntur sed beatae dolore modi fuga ut laborum distinctio sit blanditiis quaerat est numquam soluta, corrupti esse laboriosam velit facere? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quas molestiae modi voluptatum tempora aperiam in, enim quam! Sequi facere, totam veniam incidunt debitis architecto temporibus perferendis! Dolor, a impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae magni iusto aliquam soluta facilis esse minus beatae corporis tempora veritatis ad et cum distinctio iure blanditiis, id dolores nobis at.</p>
 
             </div>
