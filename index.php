@@ -84,7 +84,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="game">
-                    <h2 style="margin-top:20px">Pilih Tournament</h2>
+                    <h1 style="margin-top:30px">Pilih Tournament</h1>
                     <hr>
                 </div>
             </div>
