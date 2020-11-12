@@ -72,3 +72,6 @@ transform: rotateY(180deg);
     width: 600px;
     position: relative;
 }
+.blog{
+    margin: 100px;
+}
