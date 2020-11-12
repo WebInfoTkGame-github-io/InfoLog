@@ -85,7 +85,7 @@
 
             <div class="card">
                 <div class="card-body text-center">
-                    <img src="images/ml.jpg" alt="MobileLegend">
+                    <img src="images/ml.jpg" width="100" height="100" alt="MobileLegend">
                     <p>Mobile Legend Info</p>
                     
                 </div>
@@ -121,10 +121,10 @@ Mobile Controls – control your character with a virtual joystick on the left a
                 <div class="card-body">
                 Hai !!! Like for this homepage please and join in club info turnament for more information like skill, skin, progress work, or just play game.
                 </div>
-                <button href="index.php" style="padding: 20px;"><p>Kembali</p></button>
+                
             </div>
             <?php } ?>
-            
+            <button href="index.php" style="padding: 20px;"><p>Kembali</p></button>
         </div>
     
     </div>
