@@ -1,3 +1,6 @@
+*{
+    text-decoration: none;
+}
 body{
     height:5000px;
 }
@@ -138,4 +141,48 @@ transform: rotateY(180deg);
 }
 .coming-soon{
     margin-top: 40px;
+}
+.jet{
+    width: 400px;
+    position:relative;
+    z-index: 0;
+    margin-left: -100px;
+}
+.idk{
+    z-index: 1;
+    width: 400px;
+    position: absolute;
+    margin-left: 10px;
+}
+.sample-tourney{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 100px;
+    background-color:rgb(0, 255, 255);
+    border-radius: 15px;
+}
+.sample-tourney img{
+    border-radius: 10px;
+    float: left;
+    margin-left: -80px;
+    margin-right: 20px;
+}
+.sample-tourney a p{
+    float: right;
+    margin-right: -20px;
+}
+.kanan{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.kanan:hover{
+    text-decoration: none;
+    color: white;
+}
+.s{
+    font-size:50px;
+    float:right;
+    margin-top: -80px;
+    margin-right: -80px;
+    color: white;
 }

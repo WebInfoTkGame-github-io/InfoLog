@@ -432,7 +432,7 @@
 <!-- akhir artikel -->
 <!-- tourney coming soon -->
 <section>
-    <div class="container">
+    <div class="container" style="box-sizing: border-box;">
         <div class="row">
             <div class="col-sm-12">
                 <div class="coming-soon">
@@ -442,7 +442,56 @@
             </div>
         </div>
         <div class="row">
-            
+            <div class="col-sm-6">
+                <div class="sample-tourney">
+                    <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
+                    <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
+                    <hr style="margin-left:40px">
+                    <p class="kanan text-muted">Dimulai tanggal 16-Oktober-2021</p>
+                    <a href=""><i class="fa s">&#xf061;</i></a>
+                </div>
+                <div class="sample-tourney">
+                    <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
+                    <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
+                    <hr style="margin-left:40px">
+                    <p class="kanan text-muted">Dimulai tanggal 16-Oktober-2021</p>
+                    <a href=""><i class="fa s">&#xf061;</i></a>
+                </div>
+                <div class="sample-tourney">
+                    <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
+                    <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
+                    <hr style="margin-left:40px">
+                    <p class="kanan text-muted">Dimulai tanggal 16-Oktober-2021</p>
+                    <a href=""><i class="fa s">&#xf061;</i></a>
+                </div>
+                <div class="sample-tourney">
+                    <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
+                    <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
+                    <hr style="margin-left:40px">
+                    <p class="kanan text-muted">Dimulai tanggal 16-Oktober-2021</p>
+                    <a href=""><i class="fa s">&#xf061;</i></a>
+                </div>
+                <div class="sample-tourney">
+                    <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
+                    <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
+                    <hr style="margin-left:40px">
+                    <p class="kanan text-muted">Dimulai tanggal 16-Oktober-2021</p>
+                    <a href=""><i class="fa s">&#xf061;</i></a>
+                </div>
+                <div class="sample-tourney">
+                    <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
+                    <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
+                    <hr style="margin-left:40px">
+                    <p class="kanan text-muted">Dimulai tanggal 16-Oktober-2021</p>
+                    <a href=""><i class="fa s">&#xf061;</i></a>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <img class="idk" src="images/idk.png" alt="idk">
+            </div>
+            <div class="col-sm-3">
+                <img class="jet" src="images/jet.png" alt="jet">
+            </div>
         </div>
     </div>
 </section>
