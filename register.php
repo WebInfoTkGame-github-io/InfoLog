@@ -50,9 +50,6 @@ if(isset($_POST['register'])){
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <style>
-        body{
-            height:5000px;
-        }
         .box h2{
             margin: 0 0 30px;
             padding: 10px;
