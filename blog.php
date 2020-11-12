@@ -85,7 +85,7 @@
 
             <div class="card">
                 <div class="card-body text-center">
-                    <img src="ml.jpg" alt="MobileLegend">
+                    <img src="images/ml.jpg" alt="MobileLegend">
                     <p>Mobile Legend Info</p>
                     
                 </div>
