@@ -105,7 +105,7 @@ if(isset($_POST['register'])){
         }
         .hod {
             font-family: 'Bad Script', cursive;
-            color: lightblue;
+            color: blue;
             font-size: 45px;
             margin: 0;
             padding: 0;
@@ -170,7 +170,7 @@ if(isset($_POST['register'])){
                      0 0 2200px blueviolet;
                     }
     5%,95%{
-        color: lightgreen;
+        color: green;
         filter: blur(0px);
         text-shadow: none;
     }
