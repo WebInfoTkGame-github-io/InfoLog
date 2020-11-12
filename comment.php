@@ -87,10 +87,13 @@
                 <div class="card-body text-center">
 
                     <img class="img img-responsive rounded-circle mb-3" width="160" src="img/<?php echo $_SESSION['user']['photo'] ?>" />
-                    
+                    <?php if($_SESSION == 1) { ?>
                     <h3><?php echo  $_SESSION["user"]["name"] ?></h3>
                     <p><?php echo $_SESSION["user"]["email"] ?></p>
-
+                    <?php } else { ?>
+                        <h3><?php echo  $_SESSION[Unknow][Unknow] ?></h3>
+                        <p><?php echo $_SESSION[Unknow][Unknow] ?></p>
+                    <?php } ?>
                     <p><a href="logout.php">Logout</a></p>
                 </div>
             </div>
