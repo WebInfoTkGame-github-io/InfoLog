@@ -447,57 +447,58 @@
                     <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
                     <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
                     <hr style="margin-left:40px">
-                    <p class="kanan text-muted">Dimulai tanggal 16-Oktober-2021</p>
+                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
                     <a href=""><i class="fa s">&#xf061;</i></a>
                 </div>
                 <div class="sample-tourney">
                     <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
                     <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
                     <hr style="margin-left:40px">
-                    <p class="kanan text-muted">Dimulai tanggal 16-Oktober-2021</p>
+                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
                     <a href=""><i class="fa s">&#xf061;</i></a>
                 </div>
                 <div class="sample-tourney">
                     <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
                     <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
                     <hr style="margin-left:40px">
-                    <p class="kanan text-muted">Dimulai tanggal 16-Oktober-2021</p>
+                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
                     <a href=""><i class="fa s">&#xf061;</i></a>
                 </div>
                 <div class="sample-tourney">
                     <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
                     <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
                     <hr style="margin-left:40px">
-                    <p class="kanan text-muted">Dimulai tanggal 16-Oktober-2021</p>
+                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
                     <a href=""><i class="fa s">&#xf061;</i></a>
                 </div>
                 <div class="sample-tourney">
                     <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
                     <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
                     <hr style="margin-left:40px">
-                    <p class="kanan text-muted">Dimulai tanggal 16-Oktober-2021</p>
+                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
                     <a href=""><i class="fa s">&#xf061;</i></a>
                 </div>
                 <div class="sample-tourney">
                     <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
                     <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
                     <hr style="margin-left:40px">
-                    <p class="kanan text-muted">Dimulai tanggal 16-Oktober-2021</p>
+                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
                     <a href=""><i class="fa s">&#xf061;</i></a>
                 </div>
-            </div>
-            <div class="col-sm-3">
-                <img class="idk" src="images/idk.png" alt="idk">
             </div>
             <div class="col-sm-3">
                 <img class="jet" src="images/jet.png" alt="jet">
             </div>
+            <div class="col-sm-3">
+                <img class="idk" src="images/idk.png" alt="idk">
+            </div>
+            
         </div>
     </div>
 </section>
 <!-- akhir tourney coming soon -->
 <!-- Contact Us -->
-<section>
+<section class="bg-info">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -507,6 +508,26 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <form>
+                <div class="form-group">
+                    <label for="nama">Nama</label>
+                    <input type="text" id="nama" class="form-control">
+                </div>
+            
+                <div class="form-group">
+                    <label for="nama">Email</label>
+                    <input type="email" id="nama" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="Pesan">Pesan</label>
+                    <textarea style="resize:none" class="form-control" rows="10"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim</button>
+                </form>    
+            </div>
+            </div> 
     </div>
 </section>
 <!-- akhir contact us -->

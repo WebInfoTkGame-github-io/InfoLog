@@ -1,9 +1,6 @@
 *{
     text-decoration: none;
 }
-body{
-    height:5000px;
-}
 h1{
     text-align: center;
 }
@@ -146,13 +143,13 @@ transform: rotateY(180deg);
     width: 400px;
     position:relative;
     z-index: 0;
-    margin-left: -100px;
+    margin-left: 200px;
 }
 .idk{
     z-index: 1;
     width: 400px;
     position: absolute;
-    margin-left: 10px;
+    margin-left: -270px;
 }
 .sample-tourney{
     margin-top: 20px;
@@ -185,4 +182,7 @@ transform: rotateY(180deg);
     margin-top: -80px;
     margin-right: -80px;
     color: white;
+}
+.contact{
+    margin-top: 40px;
 }
