@@ -208,7 +208,7 @@
         </h4></div>
         <p>Belum punya akun? <a href="register.php">Daftar di sini</a></p>
         
-        <form action="timeline" method="POST">
+        <form action="timeline.php" method="POST">
         <div class="w3-container w3-padding-64 box" id="contact">
             <div class="form-group">
                 <label for="username">Username</label>
