@@ -72,6 +72,19 @@ transform: rotateY(180deg);
     width: 600px;
     position: relative;
 }
-.blog{
-    margin: 100px;
+.baca{
+    border-radius: 10px;
+    background: cyan;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.baca:hover{
+    border-radius: 10px;
+    background: cyan;
+    box-shadow: 0px 0px 30px 5px cyan;
+    color: white;
+    transition: 200ms;
+    text-decoration: none;
+    padding: 10px;
 }
