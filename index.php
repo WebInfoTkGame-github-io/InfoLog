@@ -447,69 +447,120 @@
                     <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
                     <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
                     <hr style="margin-left:40px">
-                    <p class="kanan text-muted">Dimulai tanggal 16-Oktober-2021</p>
+                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
                     <a href=""><i class="fa s">&#xf061;</i></a>
                 </div>
                 <div class="sample-tourney">
                     <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
                     <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
                     <hr style="margin-left:40px">
-                    <p class="kanan text-muted">Dimulai tanggal 16-Oktober-2021</p>
+                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
                     <a href=""><i class="fa s">&#xf061;</i></a>
                 </div>
                 <div class="sample-tourney">
                     <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
                     <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
                     <hr style="margin-left:40px">
-                    <p class="kanan text-muted">Dimulai tanggal 16-Oktober-2021</p>
+                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
                     <a href=""><i class="fa s">&#xf061;</i></a>
                 </div>
                 <div class="sample-tourney">
                     <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
                     <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
                     <hr style="margin-left:40px">
-                    <p class="kanan text-muted">Dimulai tanggal 16-Oktober-2021</p>
+                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
                     <a href=""><i class="fa s">&#xf061;</i></a>
                 </div>
                 <div class="sample-tourney">
                     <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
                     <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
                     <hr style="margin-left:40px">
-                    <p class="kanan text-muted">Dimulai tanggal 16-Oktober-2021</p>
+                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
                     <a href=""><i class="fa s">&#xf061;</i></a>
                 </div>
-                <div class="sample-tourney">
+                <div class="sample-tourney" style="margin-bottom:40px">
                     <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
                     <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
                     <hr style="margin-left:40px">
-                    <p class="kanan text-muted">Dimulai tanggal 16-Oktober-2021</p>
+                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
                     <a href=""><i class="fa s">&#xf061;</i></a>
                 </div>
-            </div>
-            <div class="col-sm-3">
-                <img class="idk" src="images/idk.png" alt="idk">
             </div>
             <div class="col-sm-3">
                 <img class="jet" src="images/jet.png" alt="jet">
             </div>
+            <div class="col-sm-3">
+                <img class="idk" src="images/idk.png" alt="idk">
+            </div>
+            
         </div>
     </div>
 </section>
 <!-- akhir tourney coming soon -->
 <!-- Contact Us -->
-<section>
+<section class="kontak">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
                 <div class="contact">
                     <h1 style="margin-top:40px">Contact Us</h1>
-                    <hr>
+                    <hr style="color:white">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <form>
+                <div class="form-group">
+                    <label for="nama">Name</label>
+                    <input type="text" id="nama" class="form-control">
+                </div>
+            
+                <div class="form-group">
+                    <label for="nama">Email</label>
+                    <input type="email" id="nama" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="Pesan">Message</label>
+                    <textarea style="resize:none" class="form-control" rows="10"></textarea>
+                </div>
+                <button type="submit" class="kirim">Send</button>
+                </form>    
+            </div>
+            </div> 
+    </div>
+</section>
+<!-- akhir contact us -->
+<!-- footer -->
+<section style="background-color: #2e2d2d;">
+    <div class="container-fluid">
+        <div class="footer">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="images/sv.png" style="width:130px" alt="">
+                </div>
+                <div class="col-sm-4">
+                    <p><i style="font-size:24px" class="fa">&#xf1f9;</i>Copyright 2020 Build by Savoxit</p>
+                </div>
+                <div class="col-sm-4">
+                    <h4>Follow Us:</h4>
+                    <a href="">
+                        <i style="font-size:24px" class="fa">&#xf230;</i>Facebook
+                    </a>
+                    <br>
+                    <a href="">
+                        <i style="font-size:24px" class="fa">&#xf16d;</i>Instagram
+                    </a>
+                    <br>
+                    <a href="">
+                        <i style="font-size:24px" class="fa">&#xf081;</i>Twitter
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- akhir contact us -->
+<!-- akhir footer -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
