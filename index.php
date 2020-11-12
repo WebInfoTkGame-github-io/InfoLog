@@ -85,7 +85,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="game">
-                    <center><h1 style="margin-top:30px">Pilih Tournament</h1></center>
+                    <center><h1 style="margin-top:30px">Choose Tournament</h1></center>
                     <hr>
                 </div>
             </div>
@@ -100,7 +100,7 @@
                         <div class="flip-card-back">
                             <h4>Mobile Legends</h4> 
                             <a href="#" class="button">
-                                Cari Tournament
+                                Find Tournament
                             </a>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                         <div class="flip-card-back">
                             <h4>PUBG Mobile</h4> 
                             <a href="#" class="button">
-                                Cari Tournament
+                                Find Tournament
                             </a> 
                         </div>
                     </div>
@@ -130,7 +130,7 @@
                         <div class="flip-card-back">
                             <h4>Free Fire</h4> 
                             <a href="#" class="button">
-                                Cari Tournament
+                                Find Tournament
                             </a> 
                         </div>
                     </div>
@@ -145,7 +145,7 @@
                         <div class="flip-card-back">
                             <h4>Call of Duty</h4> 
                             <a href="#" class="button">
-                                Cari Tournament
+                                Find Tournament
                             </a> 
                         </div>
                     </div>
@@ -160,7 +160,7 @@
                         <div class="flip-card-back">
                             <h4>Arena of Valor</h4> 
                             <a href="#" class="button">
-                                Cari Tournament
+                                Find Tournament
                             </a> 
                         </div>
                     </div>
@@ -175,7 +175,7 @@
                         <div class="flip-card-back">
                             <h4>Clash of Clans</h4> 
                             <a href="#" class="button">
-                                Cari Tournament
+                                Find Tournament
                             </a> 
                         </div>
                     </div>
@@ -190,7 +190,7 @@
                         <div class="flip-card-back">
                             <h4>Clash Royale</h4> 
                             <a href="#" class="button">
-                                Cari Tournament
+                                Find Tournament
                             </a> 
                         </div>
                     </div>
@@ -205,7 +205,7 @@
                         <div class="flip-card-back">
                             <h4>PES E-Football</h4> 
                             <a href="#" class="button">
-                                Cari Tournament
+                                Find Tournament
                             </a> 
                         </div>
                     </div>
@@ -220,7 +220,7 @@
                         <div class="flip-card-back">
                             <h4>Auto Chess</h4> 
                             <a href="#" class="button">
-                                Cari Tournament
+                                Find Tournament
                             </a> 
                         </div>
                     </div>
@@ -235,7 +235,7 @@
                         <div class="flip-card-back">
                             <h4>Among Us</h4> 
                             <a href="#" class="button">
-                                Cari Tournament
+                                Find Tournament
                             </a> 
                         </div>
                     </div>
@@ -250,7 +250,7 @@
                         <div class="flip-card-back">
                             <h4>Brawl Stars</h4> 
                             <a href="#" class="button">
-                                Cari Tournament
+                                Find Tournament
                             </a> 
                         </div>
                     </div>
@@ -265,7 +265,7 @@
                         <div class="flip-card-back">
                             <h4>Magic Chess</h4> 
                             <a href="#" class="button">
-                                Cari Tournament
+                                Find Tournament
                             </a> 
                         </div>
                     </div>
@@ -280,7 +280,7 @@
                         <div class="flip-card-back">
                             <h4>CS:GO</h4> 
                             <a href="#" class="button">
-                                Cari Tournament
+                                Find Tournament
                             </a> 
                         </div>
                     </div>
@@ -295,7 +295,7 @@
                         <div class="flip-card-back">
                             <h4>Dota 2</h4> 
                             <a href="#" class="button">
-                                Cari Tournament
+                                Find Tournament
                             </a> 
                         </div>
                     </div>
@@ -310,7 +310,7 @@
                         <div class="flip-card-back">
                             <h4>Rules of Survival</h4> 
                             <a href="#" class="button">
-                                Cari Tournament
+                                Find Tournament
                             </a> 
                         </div>
                     </div>
@@ -325,7 +325,7 @@
                         <div class="flip-card-back">
                             <h4>Valorant</h4> 
                             <a href="#" class="button">
-                                Cari Tournament
+                                Find Tournament
                             </a> 
                         </div>
                     </div>
@@ -342,7 +342,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="tentang">
-                    <h1>Tentang Kami</h1>
+                    <h1>About Us</h1>
                     <hr>
                 </div>
             </div>
@@ -365,7 +365,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="artikel">
-                    <h1>Berita Terbaru</h1>
+                    <h1>Latest News</h1>
                     <hr>
                 </div>
             </div>
@@ -378,7 +378,7 @@
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         <a href="#" class="baca">
-                                Baca lebih
+                                Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
                         </a> 
                     </div>
                 </div>
@@ -390,7 +390,7 @@
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         <a href="#" class="baca">
-                                Baca lebih
+                                Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
                         </a>
                     </div>
                 </div>
@@ -402,7 +402,7 @@
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         <a href="#" class="baca">
-                                Baca lebih
+                                Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
                         </a>
                     </div>
                 </div>
@@ -414,7 +414,7 @@
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         <a href="#" class="baca">
-                                Baca lebih
+                                Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
                         </a>
                     </div>
                 </div>
@@ -423,13 +423,30 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="berita">
-                    <a href="#" class="berita-lain">Berita lain</a>
+                    <a href="#" class="berita-lain">Read More</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 <!-- akhir artikel -->
+<!-- tourney coming soon -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="coming-soon">
+                    <h1>Coming Soon Tournament</h1>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            
+        </div>
+    </div>
+</section>
+<!-- akhir tourney coming soon -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
