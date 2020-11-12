@@ -65,7 +65,7 @@
         }
         .hod {
             font-family: 'Bad Script', cursive;
-            color: lightblue;
+            color: blue;
             font-size: 45px;
             margin: 0;
             padding: 0;
@@ -118,7 +118,7 @@
                      0 0 160px blueviolet;
                     }
     5%,95%{
-        color: lightgreen;
+        color: green;
         filter: blur(0px);
         text-shadow: none;
     }
@@ -208,9 +208,9 @@
         <span>k</span>
         <span>u</span>
         <span>n</span>      
-        </h4>
+        </h4></div>
         <p>Belum punya akun? <a href="register.php">Daftar di sini</a></p>
-        </div>
+        
         <form action="timeline" method="POST">
         <div class="w3-container w3-padding-64 box" id="contact">
             <div class="form-group">
