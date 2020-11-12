@@ -1,6 +1,12 @@
 body{
     height:5000px;
 }
+h1{
+    text-align: center;
+}
+hr{
+    margin-bottom: 20px;
+}
 .flip-card {
 background-color: transparent;
 width: 250px;
@@ -65,12 +71,20 @@ transform: rotateY(180deg);
     margin-top: 20px;
 }
 .teks{
+    margin-top: 20px;
     position: absolute;
 }
 .hero{
+    margin-top: 20px;
     margin-left: 600px;
     width: 600px;
     position: relative;
+}
+.artikel{
+    margin-top: 20px;
+}
+.card{
+    margin-top: 20px;
 }
 .baca{
     border-radius: 10px;
@@ -87,4 +101,25 @@ transform: rotateY(180deg);
     transition: 200ms;
     text-decoration: none;
     padding: 10px;
+}
+.berita{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.berita-lain{
+    border-radius: 20px;
+    background: cyan;
+    color: white;
+    text-decoration: none;
+    padding: 20px 50px;
+}
+.berita-lain:hover{
+    border-radius: 20px;
+    background: cyan;
+    box-shadow: 0px 0px 30px 5px cyan;
+    color: white;
+    transition: 200ms;
+    text-decoration: none;
+    padding: 20px 50px;
 }
