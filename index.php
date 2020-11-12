@@ -85,7 +85,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="game">
-                    <h1 style="margin-top:30px">Pilih Tournament</h1>
+                    <center><h1 style="margin-top:30px">Pilih Tournament</h1></center>
                     <hr>
                 </div>
             </div>
@@ -417,6 +417,13 @@
                                 Baca lebih
                         </a>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="berita">
+                    <a href="#" class="berita-lain">Berita lain</a>
                 </div>
             </div>
         </div>

@@ -161,7 +161,7 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="nav nav-pills">
             <li class="nav-item">
-                <a class="nav-link active" style="color:white" href="index.php">Home</a>
+                <a class="nav-link" style="color:white" href="index.php">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" style="color:white">Tournament</a>
