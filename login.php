@@ -164,7 +164,7 @@
                 <a class="nav-link" href="#" style="color:white">Tournament</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" style="color:white">Blog</a>
+                <a class="nav-link" href="blog.php" style="color:white">Blog</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" style="color:white">E-sport recruitment</a>

@@ -115,7 +115,6 @@
                 <div class="card-body">
                 Hai !!! Like for this homepage please and join in club info turnament for more information like skill, skin, progress work, or just play game.
                 </div>
-                <button href="index.php" style="padding: 20px;"><p>Kembali</p></button>
             </div>
             <?php } ?>
             
@@ -123,6 +122,3 @@
     
     </div>
 </div>
-
-</body>
-</html>
