@@ -1,6 +1,6 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,60 +12,18 @@
     <style>
         body{
             height:5000px;
-            text-align: center;
         }
-        .flip-card {
-        background-color: transparent;
-        width: 250px;
-        height: 250px;
-        margin:20px;
-        perspective: 1000px;
-        }
-
-        .flip-card-inner {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        transition: transform 0.6s;
-        transform-style: preserve-3d;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        }
-
-        .flip-card:hover .flip-card-inner {
-        transform: rotateY(180deg);
-        }
-
-        .flip-card-front, .flip-card-back {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-        }
-
-        .flip-card-front {
-        background-color: #bbb;
-        color: black;
-        }
-
-        .flip-card-back {
-        background-color: #2980b9;
-        color: white;
-        transform: rotateY(180deg);
-        }
-
         .box h2{
             margin: 0 0 30px;
             padding: 10px;
             color: purple;
             text-align: center;
         }
-        .box .inputBox {
+        .box .form-control {
             position: relative;
             padding: 0px 0px 0px 10px;
         }
-        .box .inputBox input{
+        .box .form-control input{
             width: 100%;
             padding: 10px 0px 0px 10px;
             font-size: 16px;
@@ -77,7 +35,7 @@
             outline: none;
             background: transparent;
         }
-        .box .inputBox label {
+        .box .form-control label {
             position: 200 absolute;
             top: 0;
             left: 0;
@@ -88,8 +46,8 @@
             pointer-events: none;
             transition: .5s;
         }
-        .box .inputBox input:focus ~ label,
-        .box .inputBox input:valid ~ label{
+        .box .form-control input:focus ~ label,
+        .box .form-control input:valid ~ label{
             top: -7px;
             left: 0;
             color: #03a9f4;
@@ -133,6 +91,18 @@
         .hod span:nth-child(5){
             animation-delay: 1s;
         }
+        .hod span:nth-child(6){
+            animation-delay: 1.25s;
+        }
+        .hod span:nth-child(7){
+            animation-delay: 1.5s;
+        }
+        .hod span:nth-child(8){
+            animation-delay: 1.75s;
+        }
+        .hod span:nth-child(9){
+            animation-delay: 2s;
+        }
         @keyframes animate1 {
     0%,100%{
         color: darkblue;
@@ -141,7 +111,11 @@
                      0 0 20px blueviolet,
                      0 0 40px blueviolet,
                      0 0 60px blueviolet,
-                     0 0 80px blueviolet;
+                     0 0 80px blueviolet,
+                     0 0 100px blueviolet,
+                     0 0 120px blueviolet,
+                     0 0 140px blueviolet,
+                     0 0 160px blueviolet;
                     }
     5%,95%{
         color: lightgreen;
@@ -153,9 +127,9 @@
 
     <title>Web Info Tourney</title>
   </head>
-  <body>
-    <!-- Header -->
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<body class="bg-light">
+<!-- Header -->
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
             <img src="images/aa.jpg" class="d-block w-100" alt="...">
@@ -218,20 +192,50 @@
         </ul>
         </div>
         </nav>
-<div class="w3-container w3-padding-64 box hod" id="contact">
-	<h1>Membuat 
-    <span>L</span>
-    <span>o</span>
-    <span>g</span>
-    <span>i</span>
-    <span>n</span>
-      Anda</h1>
-	<h3>Masukan data:</h3>
-	<form action="login2.php" method="post">		
-            <div class="inputBox"><p><input type="email" class="col-sm-5" name="email" required=""><label>Email</label></p></div>
-            <div class="inputBox"><p><input type="password" class="col-sm-5" name="password" required=""><label>Password</label></p></div>
-            <div class="inputBox"><p><button type="submit" value="Log In" name="login">Log In</button></p></div>
-	</form>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+
+        <p>&larr; <a href="index.php">Home</a>
+        <div class="w3-container w3-padding-64 box hod" id="contact"> 
+        <h4>Masuk ke
+        <span>I</span>
+        <span>n</span>
+        <span>f</span>
+        <span>o</span>
+        <span>_</span>
+        <span>a</span>
+        <span>k</span>
+        <span>u</span>
+        <span>n</span>      
+        </h4>
+        <p>Belum punya akun? <a href="register.php">Daftar di sini</a></p>
+        </div>
+        <form action="" method="POST">
+        <div class="w3-container w3-padding-64 box" id="contact">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input class="form-control" type="text" name="username" placeholder="Username atau email" />
+            </div>
+
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input class="form-control" type="password" name="password" placeholder="Password" />
+            </div>
+        
+            <input type="submit" class="btn btn-success btn-block" name="login" value="Masuk" />
+
+        </form>
+        </div>    
+        </div>
+
+        <div class="col-md-6">
+            <!-- isi dengan sesuatu di sini -->
+        </div>
+
+    </div>
 </div>
+    
 </body>
 </html>
