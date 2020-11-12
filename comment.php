@@ -91,8 +91,8 @@
                     <h3><?php echo  $_SESSION["user"]["name"] ?></h3>
                     <p><?php echo $_SESSION["user"]["email"] ?></p>
                     <?php } else { ?>
-                        <h3><?php echo  $_SESSION[Unknow][Unknow] ?></h3>
-                        <p><?php echo $_SESSION[Unknow][Unknow] ?></p>
+                        <h3>[Unknow][Unknow]</h3>
+                        <p>[Unknow][Unknow]</p>
                     <?php } ?>
                     <p><a href="logout.php">Logout</a></p>
                 </div>
