@@ -12,6 +12,7 @@
     <style>
         body{
             height:5000px;
+            text-align: center;
         }
         .flip-card {
         background-color: transparent;
@@ -77,7 +78,7 @@
             background: transparent;
         }
         .box .inputBox label {
-            position: absolute;
+            position: 200 absolute;
             top: 0;
             left: 0;
             letter-spacing: 1px;
@@ -100,7 +101,7 @@
             outline: none;
             color: purple;
             background: #03a9f4;
-            padding: 10px 20px;
+            padding: 5px 10px;
             cursor: pointer;
             border-radius: 5px;
         }
