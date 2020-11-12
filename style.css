@@ -55,6 +55,7 @@ transform: rotateY(180deg);
     border-radius: 10px;
     background: cyan;
     color: white;
+    text-shadow: 2px 2px 4px #000000;
     text-decoration: none;
     padding: 20px;
 }
@@ -63,6 +64,7 @@ transform: rotateY(180deg);
     background: cyan;
     box-shadow: 0px 0px 30px 5px cyan;
     color: white;
+    text-shadow: 2px 2px 4px #000000;
     transition: 200ms;
     text-decoration: none;
     padding: 20px;
@@ -86,10 +88,18 @@ transform: rotateY(180deg);
 .card{
     margin-top: 20px;
 }
+.card-body{
+    background-color: #777575;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+}
 .baca{
     border-radius: 10px;
     background: cyan;
     color: white;
+    text-shadow: 2px 2px 4px #000000;
     text-decoration: none;
     padding: 10px;
 }
@@ -98,6 +108,7 @@ transform: rotateY(180deg);
     background: cyan;
     box-shadow: 0px 0px 30px 5px cyan;
     color: white;
+    text-shadow: 2px 2px 4px #000000;
     transition: 200ms;
     text-decoration: none;
     padding: 10px;
@@ -111,15 +122,20 @@ transform: rotateY(180deg);
     border-radius: 20px;
     background: cyan;
     color: white;
+    text-shadow: 2px 2px 4px #000000;
     text-decoration: none;
-    padding: 20px 50px;
+    padding: 20px 100px;
 }
 .berita-lain:hover{
     border-radius: 20px;
     background: cyan;
     box-shadow: 0px 0px 30px 5px cyan;
     color: white;
+    text-shadow: 2px 2px 4px #000000;
     transition: 200ms;
     text-decoration: none;
-    padding: 20px 50px;
+    padding: 20px 100px;
+}
+.coming-soon{
+    margin-top: 40px;
 }
