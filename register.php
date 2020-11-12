@@ -50,9 +50,6 @@ if(isset($_POST['register'])){
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <style>
-        body{
-            height:5000px;
-        }
         .box h2{
             margin: 0 0 30px;
             padding: 10px;
@@ -105,7 +102,7 @@ if(isset($_POST['register'])){
         }
         .hod {
             font-family: 'Bad Script', cursive;
-            color: lightblue;
+            color: blue;
             font-size: 45px;
             margin: 0;
             padding: 0;
@@ -170,7 +167,7 @@ if(isset($_POST['register'])){
                      0 0 2200px blueviolet;
                     }
     5%,95%{
-        color: lightgreen;
+        color: green;
         filter: blur(0px);
         text-shadow: none;
     }
@@ -219,7 +216,7 @@ if(isset($_POST['register'])){
                 <a class="nav-link" href="#" style="color:white">Tournament</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" style="color:white">Blog</a>
+                <a class="nav-link" href="blog.php" style="color:white">Blog</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" style="color:white">E-sport recruitment</a>

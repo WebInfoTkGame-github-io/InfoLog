@@ -10,9 +10,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <style>
-        body{
-            height:5000px;
-        }
         .box h2{
             margin: 0 0 30px;
             padding: 10px;
@@ -167,7 +164,7 @@
                 <a class="nav-link" href="#" style="color:white">Tournament</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" style="color:white">Blog</a>
+                <a class="nav-link" href="blog.php" style="color:white">Blog</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" style="color:white">E-sport recruitment</a>
@@ -211,7 +208,7 @@
         </h4></div>
         <p>Belum punya akun? <a href="register.php">Daftar di sini</a></p>
         
-        <form action="timeline" method="POST">
+        <form action="timeline.php" method="POST">
         <div class="w3-container w3-padding-64 box" id="contact">
             <div class="form-group">
                 <label for="username">Username</label>
