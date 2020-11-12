@@ -496,6 +496,20 @@
     </div>
 </section>
 <!-- akhir tourney coming soon -->
+<!-- Contact Us -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="contact">
+                    <h1 style="margin-top:40px">Contact Us</h1>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- akhir contact us -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
