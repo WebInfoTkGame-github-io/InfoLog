@@ -85,16 +85,9 @@
 
             <div class="card">
                 <div class="card-body text-center">
-
-                    <img class="img img-responsive rounded-circle mb-3" width="160" src="img/<?php echo $_SESSION['user']['photo'] ?>" />
-                    <?php if($_SESSION == 1) { ?>
-                    <h3><?php echo  $_SESSION["user"]["name"] ?></h3>
-                    <p><?php echo $_SESSION["user"]["email"] ?></p>
-                    <?php } else { ?>
-                        <h3>[Unknow][Unknow]</h3>
-                        <p>[Unknow][Unknow]</p>
-                    <?php } ?>
-                    <p><a href="logout.php">Logout</a></p>
+                    <img src="ml.jpg" alt="MobileLegend">
+                    <p>Mobile Legend Info</p>
+                    
                 </div>
             </div>
 
@@ -103,7 +96,20 @@
 
 
         <div class="col-md-8">
+       <h4>Mobile Legends Overview</h4> <br>
+<p>Mobile Legends: Bang Bang is a free-to-play mobile multiplayer online battle arena (MOBA) that features a varied cast of heroes, quick matchmaking, and fast-paced battles that allow for quick gameplay sessions on the go. It features much of what players would expect from a PC MOBA like League of Legends or SMITE, including: laning, jungling, item builds, hero roles, hero abilities, skins, and much more. Its touchpad controls allow for a seamless gameplay experience on tablets and phones, with some customizable options that add auto-aiming, last-hitting, and more to make the game easier to control. Players are matched with other players across the globe, displaying their country flags next to their character picks. The game also sports community features, including: built-in livestreaming and a library of streams to watch from within the game, as well as an e-sports system that allows players to spectate high level play.</p> 
 
+<h5>Mobile Legends Key Features:</h5><br>
+<p>5v5 MOBA Gameplay – partake in classic MOBA combat against real opponents, fighting over three lanes to take down the enemy's tower.
+Variety of Heroes – choose from a wide selection of heroes that fit every role a player would want, including: tanks, mages, marksmen, support, and more.
+Quick Matchmaking – join a new game within ten seconds and finish the match within ten minutes, thanks to the game's quick early leveling.
+Built-in Livestreaming – stream your pro plays or browse the game's library of active streams to view others' games with a variety of filters that allow players to search by heroes, rank, and more.
+Mobile Controls – control your character with a virtual joystick on the left and unleash abilities on the right, aiming with either an auto-aiming feature or manually with the touchscreen.</p>
+<h5>Mobile Legends Review</h5>
+<video width="400px" height="350px" controls>
+    <source src="vidios/mlvidio.mp4" type="video/mp4">
+    <source src="vidios/mlvidio.ogg" type="video/ogg">
+</video>
             <form action="" method="post" />
                 <div class="form-group">
                     <textarea class="form-control" placeholder="Apa yang kamu pikirkan?"></textarea>
@@ -115,6 +121,7 @@
                 <div class="card-body">
                 Hai !!! Like for this homepage please and join in club info turnament for more information like skill, skin, progress work, or just play game.
                 </div>
+                <button href="index.php" style="padding: 20px;"><p>Kembali</p></button>
             </div>
             <?php } ?>
             
@@ -122,3 +129,6 @@
     
     </div>
 </div>
+
+</body>
+</html>
