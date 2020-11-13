@@ -244,3 +244,12 @@ transform: rotateY(180deg);
     margin-left: 10px;
 }
 /* End of Index */
+/* start list tournament */
+.judul{
+    margin-top: 20px;
+}
+.paging{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* end of list */
