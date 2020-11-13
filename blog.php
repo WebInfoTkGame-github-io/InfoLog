@@ -79,7 +79,35 @@
         </ul>
         </div>
         </nav>
-<div class="container mt-5">
+        <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="game">
+                    <center><h1 style="margin-top:30px">Choose Tournament</h1></center>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <form method="post" action="?btnpressed=1"> 
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/ml.jpg" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Mobile Legends</h4> 
+                            <a href="" name="btn">More INfo</a>
+                            <div class="container mt-5">
+                            </form>
+    <?php
+    if(isset($_GET['btnpressed']{
+        if(isset($_POST['btn']{ ?>
+            <div id="inputField" style="display:none;">
+                <input type="text" id="textInput" value="" />
+            </div>
     <div class="row">
         <div class="col-md-4">
 
@@ -115,20 +143,251 @@ Mobile Controls – control your character with a virtual joystick on the left a
                     <textarea class="form-control" placeholder="Apa yang kamu pikirkan?"></textarea>
                 </div>
             </form>
-
-            <?php for($i=0; $i < 4; $i++){ ?>
-            <div class="card mb-3">
-                <div class="card-body">
-                Hai !!! Like for this homepage please and join in club info turnament for more information like skill, skin, progress work, or just play game.
-                </div>
-                
-            </div>
             <?php } ?>
-            <button href="index.php" style="padding: 20px;"><p>Kembali</p></button>
+            <button href="blog.php" style="padding: 20px;"><p>Kembali</p></button>
         </div>
     
     </div>
 </div>
+</div>
+        <?php 
+        }
+    }
+    ?>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/pubg.png" alt="pubg">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>PUBG Mobile</h4> 
+                            <a href="#" class="button">
+                                Find Tournament
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/ff.png" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Free Fire</h4> 
+                            <a href="#" class="button">
+                                Find Tournament
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/cod.jpg" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Call of Duty</h4> 
+                            <a href="#" class="button">
+                                Find Tournament
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/aov.png" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Arena of Valor</h4> 
+                            <a href="#" class="button">
+                                Find Tournament
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/coc.png" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Clash of Clans</h4> 
+                            <a href="#" class="button">
+                                Find Tournament
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/cr.jpg" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Clash Royale</h4> 
+                            <a href="#" class="button">
+                                Find Tournament
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/pes.png" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>PES E-Football</h4> 
+                            <a href="#" class="button">
+                                Find Tournament
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/ac.jpg" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Auto Chess</h4> 
+                            <a href="#" class="button">
+                                Find Tournament
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/au.png" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Among Us</h4> 
+                            <a href="#" class="button">
+                                Find Tournament
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/bs.png" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Brawl Stars</h4> 
+                            <a href="#" class="button">
+                                Find Tournament
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/ches.png" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Magic Chess</h4> 
+                            <a href="#" class="button">
+                                Find Tournament
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/cs.png" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>CS:GO</h4> 
+                            <a href="#" class="button">
+                                Find Tournament
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/dota2.jpg" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Dota 2</h4> 
+                            <a href="#" class="button">
+                                Find Tournament
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/ros.png" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Rules of Survival</h4> 
+                            <a href="#" class="button">
+                                Find Tournament
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img style="width:250px;height:250px;" src="images/vl.png" alt="Mobile legends">
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Valorant</h4> 
+                            <a href="#" class="button">
+                                Find Tournament
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
 
 </body>
 </html>
