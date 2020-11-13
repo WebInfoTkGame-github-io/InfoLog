@@ -13,7 +13,7 @@
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 
-    <title>Team-Up | Home</title>
+    <title>Team-Up | Tournament</title>
   </head>
   <body>
     <!-- Header -->
@@ -49,10 +49,10 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="nav nav-pills">
             <li class="nav-item">
-                <a class="nav-link active" style="color:white" href="#">Home</a>
+                <a class="nav-link " style="color:white" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="tournament.php" style="color:white">Tournament</a>
+                <a class="nav-link active" href="#" style="color:white">Tournament</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="blog.php" style="color:white">Blog</a>
@@ -338,201 +338,6 @@
     </div>
 </section>
 <!-- akhir content -->
-<!-- Tentang kami -->
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="tentang">
-                    <h1>About Us</h1>
-                    <hr>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6 teks">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis consequuntur sed beatae dolore modi fuga ut laborum distinctio sit blanditiis quaerat est numquam soluta, corrupti esse laboriosam velit facere? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quas molestiae modi voluptatum tempora aperiam in, enim quam! Sequi facere, totam veniam incidunt debitis architecto temporibus perferendis! Dolor, a impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae magni iusto aliquam soluta facilis esse minus beatae corporis tempora veritatis ad et cum distinctio iure blanditiis, id dolores nobis at.</p>
-
-            </div>
-            <div class="col-sm-6">
-                <img class="hero" src="images/hero.png" alt="hero">
-            </div>
-        </div>
-    </div>
-</section>
-<!-- akhir tentang kami -->
-<!-- artikel terbaru -->
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="artikel">
-                    <h1>Latest News</h1>
-                    <hr>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3">
-                <div class="card">
-                    <img src="images/pacman.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="baca">
-                                Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
-                        </a> 
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card">
-                    <img src="images/pacman.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="baca">
-                                Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card">
-                    <img src="images/pacman.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="baca">
-                                Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card">
-                    <img src="images/pacman.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="baca">
-                                Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="berita">
-                    <a href="#" class="berita-lain">Show More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- akhir artikel -->
-<!-- tourney coming soon -->
-<section>
-    <div class="container" style="box-sizing: border-box;">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="coming-soon">
-                    <h1>Incoming Tournament</h1>
-                    <hr>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="sample-tourney">
-                    <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
-                    <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
-                    <hr style="margin-left:40px">
-                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
-                    <a href=""><i class="fa s">&#xf061;</i></a>
-                </div>
-                <div class="sample-tourney">
-                    <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
-                    <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
-                    <hr style="margin-left:40px">
-                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
-                    <a href=""><i class="fa s">&#xf061;</i></a>
-                </div>
-                <div class="sample-tourney">
-                    <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
-                    <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
-                    <hr style="margin-left:40px">
-                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
-                    <a href=""><i class="fa s">&#xf061;</i></a>
-                </div>
-                <div class="sample-tourney">
-                    <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
-                    <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
-                    <hr style="margin-left:40px">
-                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
-                    <a href=""><i class="fa s">&#xf061;</i></a>
-                </div>
-                <div class="sample-tourney">
-                    <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
-                    <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
-                    <hr style="margin-left:40px">
-                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
-                    <a href=""><i class="fa s">&#xf061;</i></a>
-                </div>
-                <div class="sample-tourney" style="margin-bottom:40px">
-                    <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
-                    <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
-                    <hr style="margin-left:40px">
-                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
-                    <a href=""><i class="fa s">&#xf061;</i></a>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <img class="jet" src="images/jet.png" alt="jet">
-            </div>
-            <div class="col-sm-3">
-                <img class="idk" src="images/idk.png" alt="idk">
-            </div>
-            
-        </div>
-    </div>
-</section>
-<!-- akhir tourney coming soon -->
-<!-- Contact Us -->
-<section class="kontak">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="contact">
-                    <h1 style="margin-top:40px">Contact Us</h1>
-                    <hr style="color:white">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <form>
-                <div class="form-group">
-                    <label for="nama">Name</label>
-                    <input type="text" id="nama" class="form-control">
-                </div>
-            
-                <div class="form-group">
-                    <label for="nama">Email</label>
-                    <input type="email" id="nama" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="Pesan">Message</label>
-                    <textarea style="resize:none" class="form-control" rows="10"></textarea>
-                </div>
-                <button type="submit" class="kirim">Send</button>
-                </form>    
-            </div>
-            </div> 
-    </div>
-</section>
-<!-- akhir contact us -->
 <!-- footer -->
 <section style="background-color: #2e2d2d;">
     <div class="container-fluid">
