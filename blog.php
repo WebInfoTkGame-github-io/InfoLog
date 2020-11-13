@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="images/sh.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <title>Web Info Tourney</title>
   </head>
@@ -84,7 +87,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="game">
-                    <center><h1 style="margin-top:30px">Choose Tournament</h1></center>
+                    <center><h1 style="margin-top:30px">Choose Game info</h1></center>
                     <hr>
                 </div>
             </div>
@@ -98,32 +101,24 @@
                             <img style="width:250px;height:250px;" src="images/ml.jpg" alt="Mobile legends">
                         </div>
                         <div class="flip-card-back">
-                            <h4>Mobile Legends</h4> 
-                            <a href="" name="btn">More INfo</a>
+                            <h4>Mobile Legends</h4>
+                            <div class="container"> 
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">More Info</button>
                             <div class="container mt-5">
                             </form>
-    <?php
-    if(isset($_GET['btnpressed']{
-        if(isset($_POST['btn']{ ?>
-            <div id="inputField" style="display:none;">
-                <input type="text" id="textInput" value="" />
-            </div>
-    <div class="row">
-        <div class="col-md-4">
 
-            <div class="card">
-                <div class="card-body text-center">
-                    <img src="images/ml.jpg" width="200" height="200" alt="MobileLegend">
+            </div>
+            <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <p>Mobile Legend Info</p>
-                    
-                </div>
             </div>
 
-            
-        </div>
 
-
-        <div class="col-md-8">
        <h4>Mobile Legends Overview</h4> <br>
 <p>Mobile Legends: Bang Bang is a free-to-play mobile multiplayer online battle arena (MOBA) that features a varied cast of heroes, quick matchmaking, and fast-paced battles that allow for quick gameplay sessions on the go. It features much of what players would expect from a PC MOBA like League of Legends or SMITE, including: laning, jungling, item builds, hero roles, hero abilities, skins, and much more. Its touchpad controls allow for a seamless gameplay experience on tablets and phones, with some customizable options that add auto-aiming, last-hitting, and more to make the game easier to control. Players are matched with other players across the globe, displaying their country flags next to their character picks. The game also sports community features, including: built-in livestreaming and a library of streams to watch from within the game, as well as an e-sports system that allows players to spectate high level play.</p> 
 
@@ -132,30 +127,18 @@
 Variety of Heroes – choose from a wide selection of heroes that fit every role a player would want, including: tanks, mages, marksmen, support, and more.
 Quick Matchmaking – join a new game within ten seconds and finish the match within ten minutes, thanks to the game's quick early leveling.
 Built-in Livestreaming – stream your pro plays or browse the game's library of active streams to view others' games with a variety of filters that allow players to search by heroes, rank, and more.
-Mobile Controls – control your character with a virtual joystick on the left and unleash abilities on the right, aiming with either an auto-aiming feature or manually with the touchscreen.</p>
-<h5>Mobile Legends Review</h5>
-<video width="400px" height="350px" controls>
-    <source src="vidios/mlvidio.mp4" type="video/mp4">
-    <source src="vidios/mlvidio.ogg" type="video/ogg">
-</video>
-            <form action="" method="post" />
-                <div class="form-group">
-                    <textarea class="form-control" placeholder="Apa yang kamu pikirkan?"></textarea>
-                </div>
-            </form>
-            <?php } ?>
-            <button href="blog.php" style="padding: 20px;"><p>Kembali</p></button>
+Mobile Controls – control your character with a virtual joystick on the left and unleash abilities on the right, aiming with either an auto-aiming feature or manually with the touchscreen.</p>   
+<div class="modal-footer">
+          
         </div>
-    
+      </div>
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
     </div>
+  </div>
 </div>
-</div>
-        <?php 
-        }
-    }
-    ?>
-                            </a>
-                        </div>
+
+                        
                     </div>
                 </div>
             </div>
