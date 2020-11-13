@@ -1,6 +1,9 @@
 *{
     text-decoration: none;
 }
+body{
+    font-family: 'Electrolize', sans-serif;
+}
 h1{
     text-align: center;
 }
@@ -235,4 +238,8 @@ transform: rotateY(180deg);
 }
 .footer a:hover{
     text-decoration: none;
+}
+.logo{
+    width:200px;
+    margin-left: 10px;
 }

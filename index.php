@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="images/sh.png" type="image/x-icon">
@@ -42,7 +44,7 @@
             <span class="navbar-toggler-icon"></span>
             </button>
         <a class="navbar-brand" href="#">
-            <img src="images/sh3.png" alt="logo" style="width:80px;">
+            <img src="images/logo.png" alt="logo" style="width:80px;">
         </a>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="nav nav-pills">
@@ -423,7 +425,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="berita">
-                    <a href="#" class="berita-lain">Read More</a>
+                    <a href="#" class="berita-lain">Show More</a>
                 </div>
             </div>
         </div>
@@ -436,7 +438,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="coming-soon">
-                    <h1>Coming Soon Tournament</h1>
+                    <h1>Incoming Tournament</h1>
                     <hr>
                 </div>
             </div>
@@ -537,7 +539,9 @@
         <div class="footer">
             <div class="row">
                 <div class="col-sm-4">
-                    <img src="images/sv.png" style="width:130px" alt="">
+                    <a href="index.php">
+                        <img src="images/logo.png" class="logo" alt="">
+                    </a>
                 </div>
                 <div class="col-sm-4">
                     <p><i style="font-size:24px" class="fa">&#xf1f9;</i>Copyright 2020 Build by Savoxit</p>
