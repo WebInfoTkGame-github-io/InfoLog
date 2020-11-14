@@ -96,10 +96,10 @@
             <div class="col-sm-6">
                 <div class="sample-tourney">
                     <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
-                    <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
+                    <a href="detil-tournament.php" class="kanan">Tournament Mobile Legends Seasons 2</a>
                     <hr style="margin-left:40px">
                     <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
-                    <a href=""><i class="fa s">&#xf061;</i></a>
+                    <a href="detil-tournament.php"><i class="fa s">&#xf061;</i></a>
                 </div>
             </div>
             <div class="col-sm-6">
