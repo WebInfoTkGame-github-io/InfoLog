@@ -529,7 +529,7 @@
                 <button type="submit" class="kirim">Send</button>
                 </form>    
             </div>
-            </div> 
+        </div> 
     </div>
 </section>
 <!-- akhir contact us -->
