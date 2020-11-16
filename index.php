@@ -55,7 +55,7 @@
                 <a class="nav-link " href="tournament.php" style="color:white">Tournament</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="blog.php" style="color:white">Blog</a>
+                <a class="nav-link" href="list-news.php" style="color:white">News</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" style="color:white">E-sport recruitment</a>
@@ -351,7 +351,7 @@
         </div>
         <div class="row">
             <div class="col-sm-6 teks">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis consequuntur sed beatae dolore modi fuga ut laborum distinctio sit blanditiis quaerat est numquam soluta, corrupti esse laboriosam velit facere? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quas molestiae modi voluptatum tempora aperiam in, enim quam! Sequi facere, totam veniam incidunt debitis architecto temporibus perferendis! Dolor, a impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae magni iusto aliquam soluta facilis esse minus beatae corporis tempora veritatis ad et cum distinctio iure blanditiis, id dolores nobis at.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis consequuntur sed beatae dolore modi fuga ut laborum distinctio sit blanditiis quaerat est numquam soluta, corrupti esse laboriosam velit facere? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quas molestiae modi voluptatum tempora aperiam in, enim quam! Sequi facere, totam veniam incidunt debitis architecto temporibus perferendis! Dolor, a impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae magni iusto aliquam soluta</p>
 
             </div>
             <div class="col-sm-6">
@@ -379,7 +379,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="baca">
+                        <a href="detil-news.php" class="baca">
                                 Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
                         </a> 
                     </div>
@@ -425,7 +425,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="berita">
-                    <a href="#" class="berita-lain">Show More</a>
+                    <a href="list-news.php" class="berita-lain">Show More</a>
                 </div>
             </div>
         </div>
@@ -447,10 +447,10 @@
             <div class="col-sm-6">
                 <div class="sample-tourney">
                     <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
-                    <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
+                    <a href="detil-tournament.php" class="kanan">Tournament Mobile Legends Seasons 2</a>
                     <hr style="margin-left:40px">
                     <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
-                    <a href=""><i class="fa s">&#xf061;</i></a>
+                    <a href="detil-tournament.php"><i class="fa s">&#xf061;</i></a>
                 </div>
                 <div class="sample-tourney">
                     <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
