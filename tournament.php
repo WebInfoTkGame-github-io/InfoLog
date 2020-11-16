@@ -52,10 +52,10 @@
                 <a class="nav-link " style="color:white" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="#" style="color:white">Tournament</a>
+                <a class="nav-link active" href="tournament.php" style="color:white">Tournament</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="blog.php" style="color:white">Blog</a>
+                <a class="nav-link" href="list-news.php" style="color:white">News</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" style="color:white">E-sport recruitment</a>

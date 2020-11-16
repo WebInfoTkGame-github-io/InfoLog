@@ -52,10 +52,10 @@
                 <a class="nav-link " style="color:white" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="#" style="color:white">Tournament</a>
+                <a class="nav-link " href="tournament.php" style="color:white">Tournament</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="list-news.php" style="color:white">News</a>
+                <a class="nav-link active" href="blog.php" style="color:white">News</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" style="color:white">E-sport recruitment</a>
@@ -85,84 +85,100 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
-                <div class="judul">
-                    <h2>Mobile Legends</h2>
-                    <hr>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="images/pacman.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <a href="detil-news.php" class="baca">
+                                Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
+                        </a> 
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row list-tournament">
-            <div class="col-sm-6">
-                <div class="sample-tourney">
-                    <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
-                    <a href="detil-tournament.php" class="kanan">Tournament Mobile Legends Seasons 2</a>
-                    <hr style="margin-left:40px">
-                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
-                    <a href="detil-tournament.php"><i class="fa s">&#xf061;</i></a>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="images/pacman.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="baca">
+                                Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
+                        </a> 
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-6">
-                <div class="sample-tourney">
-                    <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
-                    <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
-                    <hr style="margin-left:40px">
-                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
-                    <a href=""><i class="fa s">&#xf061;</i></a>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="images/pacman.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="baca">
+                                Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
+                        </a> 
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-6">
-                <div class="sample-tourney">
-                    <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
-                    <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
-                    <hr style="margin-left:40px">
-                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
-                    <a href=""><i class="fa s">&#xf061;</i></a>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="images/pacman.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="baca">
+                                Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
+                        </a> 
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-6">
-                <div class="sample-tourney">
-                    <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
-                    <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
-                    <hr style="margin-left:40px">
-                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
-                    <a href=""><i class="fa s">&#xf061;</i></a>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="images/pacman.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="baca">
+                                Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
+                        </a> 
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-6">
-                <div class="sample-tourney">
-                    <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
-                    <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
-                    <hr style="margin-left:40px">
-                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
-                    <a href=""><i class="fa s">&#xf061;</i></a>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="images/pacman.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="baca">
+                                Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
+                        </a> 
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-6">
-                <div class="sample-tourney">
-                    <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
-                    <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
-                    <hr style="margin-left:40px">
-                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
-                    <a href=""><i class="fa s">&#xf061;</i></a>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="images/pacman.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="baca">
+                                Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
+                        </a> 
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-6">
-                <div class="sample-tourney">
-                    <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
-                    <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
-                    <hr style="margin-left:40px">
-                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
-                    <a href=""><i class="fa s">&#xf061;</i></a>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="sample-tourney">
-                    <img style="width:100px;height:100px" class="kiri" src="images/ml.jpg" alt="ml">
-                    <a href="" class="kanan">Tournament Mobile Legends Seasons 2</a>
-                    <hr style="margin-left:40px">
-                    <p class="text-muted">Dimulai tanggal 16-Oktober-2021</p>
-                    <a href=""><i class="fa s">&#xf061;</i></a>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="images/pacman.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="baca">
+                                Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
+                        </a> 
+                    </div>
                 </div>
             </div>
         </div>
