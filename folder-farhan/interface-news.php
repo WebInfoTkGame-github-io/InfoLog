@@ -7,10 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>
-        Input Berita
-    </h1>
-    <form action="simpan-news.php" method="post">
+    <h1>Input Berita</h1>
+    <form action="simpan-news.php" method="post" enctype="multipart/form-data">
         <table>
             <tr>
                 <td>
