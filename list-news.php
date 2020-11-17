@@ -85,6 +85,14 @@
 <section>
     <div class="container">
         <div class="row">
+            <div class="col-sm-12">
+                <div class="game">
+                    <h1 style="margin-top:30px">News</h1>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-sm-3">
                 <div class="card">
                     <img src="images/pacman.jpeg" class="card-img-top" alt="...">
