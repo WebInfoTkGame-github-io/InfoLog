@@ -13,7 +13,7 @@
     <link rel="shortcut icon" href="images/logo2.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 
-    <title>Team-Up | News</title>
+    <title>Team-Up | Form E-Sport Hiring</title>
   </head>
   <body>
     <!-- Header -->
@@ -34,7 +34,7 @@
                 <a class="nav-link " href="tournament.php" style="color:white">Tournament</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="list-news.php" style="color:white">News</a>
+                <a class="nav-link" href="list-news.php" style="color:white">News</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="list-esport.php" style="color:white">E-sport recruitment</a>
@@ -61,36 +61,51 @@
         </nav>
 <!-- akhir header -->
 <!-- detil -->
-<section>
+<section class="kontak">
     <div class="container">
         <div class="row">
             <div class="col-sm-12" style="margin-top:20px">
-                <h3>Tournament Mobile Legends Seasons 2</h3>
+                <h3>Form E-Sport Hiring</h3>
                 <hr>
             </div>
         </div>
-        <div class="row text-center">
-            <div class="col-sm-12">
-                <img src="images/pacman.jpeg" alt="" style="width: 400px;margin-bottom:30px;margin-top:10px">
-            </div>
-        </div>
         <div class="row">
             <div class="col-sm-12">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sint, beatae ullam necessitatibus non, ipsa officiis, facilis esse quam quae voluptas obcaecati officia ab pariatur suscipit dignissimos ducimus dolor aliquid?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ab ut est laudantium. Neque est sapiente sint eligendi quia officiis quasi atque voluptates aut, cum cupiditate eveniet tenetur impedit optio. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti tempora veniam quo nemo quasi pariatur nesciunt rem! Sit asperiores neque veritatis veniam dolore quia qui quidem, illum est quo tempore? Lorem ipsum dolor sit amet consectetur adipisicing elit. At natus ex beatae ad esse nisi aut molestiae quisquam optio cum repellat consequatur perspiciatis <br>reprehenderit libero nesciunt, consectetur minus repellendus aliquid? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum maxime maiores voluptatem aut facilis quis rerum quibusdam, doloremque necessitatibus explicabo deserunt, tempora porro laboriosam fuga vero harum autem voluptas eligendi Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eaque autem nam nihil itaque eum, delectus architecto veritatis magnam recusandae nulla quos non, alias officiis officia voluptatem dolores exercitationem neque.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="berita">
-                    <a href="list-news.php" class="berita-lain">Back</a>
-                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="nama">Name Team</label>
+                        <input type="text" id="nama" class="form-control">
+                    </div>    
+                    <div class="form-group">
+                        <label for="Pesan">Division</label>
+                        <input type="email" id="nama" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="Pesan">Contact Person</label>
+                        <input type="email" id="nama" class="form-control">
+                    </div>
+                    <label for="Pesan">Image Tournament</label>
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="inputGroupFile02">
+                        <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">Choose file</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Description Team</label><br>
+                        <textarea style="resize:none" class="form-control" rows="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Terms</label><br>
+                        <textarea style="resize:none" class="form-control" rows="10"></textarea>
+                    </div>
+                    <button type="submit" class="kirim" style="margin-top:30px;">Send</button>
+                </form>   
             </div>
         </div>
     </div>
 </section>
 <!-- akhir detil -->
 <!-- footer -->
-<section style="background-color: #2e2d2d;margin-top:20px">
+<section style="background-color: #2e2d2d;">
     <div class="container-fluid">
         <div class="footer">
             <div class="row">

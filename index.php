@@ -65,7 +65,7 @@ if(! isset($_SESSION['is_login']))
                 <a class="nav-link" href="list-news.php" style="color:white">News</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" style="color:white">E-sport recruitment</a>
+                <a class="nav-link" href="list-esport.php" style="color:white">E-sport recruitment</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" style="color:white">Top-up credit</a>
@@ -536,7 +536,7 @@ if(! isset($_SESSION['is_login']))
                 <button type="submit" class="kirim">Send</button>
                 </form>    
             </div>
-            </div> 
+        </div> 
     </div>
 </section>
 <!-- akhir contact us -->

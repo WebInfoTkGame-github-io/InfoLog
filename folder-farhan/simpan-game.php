@@ -6,11 +6,11 @@ include("koneksi.php");
 if(isset($_POST['kirim'])){
 
     // ambil data file
-    $namaFile = $_FILES['thumbnail']['name'];
-    $namaSementara = $_FILES['thumbnail']['tmp_name'];
+    $namaFile = $_FILES['icon']['name'];
+    $namaSementara = $_FILES['icon']['tmp_name'];
 
     // tentukan lokasi file akan dipindahkan
-    $dirUpload = "../folder-farhan/images-news/";
+    $dirUpload = "../folder-farhan/icon-game/";
 
     // pindahkan file
     $terupload = move_uploaded_file($namaSementara, $dirUpload.$namaFile);
@@ -26,20 +26,19 @@ if(isset($_POST['kirim'])){
 
 
     // ambil data dari formulir
-    $konten = $_POST['konten'];
-    $judul = $_POST['judul'];
+    $nama = $_POST['nama'];
 
     // buat query
-    $sql = "INSERT INTO table_news (judul_berita,konten_berita,gambar_berita) VALUE ('$judul', '$konten','$target_file')";
+    $sql = "INSERT INTO table_game (nama_game,icon_game) VALUE ('$nama','$target_file')";
     $query = mysqli_query($db, $sql);
 
     // apakah query simpan berhasil?
     if( $query ) {
         // kalau berhasil alihkan ke halaman index.php dengan status=sukses
-        header('Location: interface-news.php?status=sukses');
+        header('Location: interface-game.php?status=sukses');
     } else {
         // kalau gagal alihkan ke halaman indek.php dengan status=gagal
-        header('Location: interface-news.php?status=gagal');
+        header('Location: interface-game.php?status=gagal');
     }
 
 

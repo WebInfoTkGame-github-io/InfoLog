@@ -4,13 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form Input Berita</title>
 </head>
 <body>
-    <h1>
-        Input Berita
-    </h1>
-    <form action="simpan-news.php" method="post">
+    <h1>Input Berita</h1>
+    <form action="simpan-news.php" method="post" enctype="multipart/form-data">
         <table>
             <tr>
                 <td>
