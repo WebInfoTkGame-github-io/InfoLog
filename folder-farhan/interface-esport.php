@@ -13,7 +13,7 @@
     <link rel="shortcut icon" href="images/logo2.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 
-    <title>Team-Up | Tournament</title>
+    <title>Team-Up | Form E-Sport Hiring</title>
   </head>
   <body>
     <!-- Header -->
@@ -31,13 +31,13 @@
                 <a class="nav-link " style="color:white" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="tournament.php" style="color:white">Tournament</a>
+                <a class="nav-link " href="tournament.php" style="color:white">Tournament</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="list-news.php" style="color:white">News</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="list-esport.php" style="color:white">E-sport recruitment</a>
+                <a class="nav-link" href="list-esport.php" style="color:white">E-sport recruitment</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" style="color:white">Top-up credit</a>
@@ -61,52 +61,51 @@
         </nav>
 <!-- akhir header -->
 <!-- detil -->
-<section>
+<section class="kontak">
     <div class="container">
-        <div class="row" style="margin-top:20px">
-            <div class="col-sm-12">
-                <h2>Clan Name</h2>
+        <div class="row">
+            <div class="col-sm-12" style="margin-top:20px">
+                <h3>Form E-Sport Hiring</h3>
                 <hr>
             </div>
         </div>
-        <div class="row text-center">
-            <div class="col-sm-12">
-                <img src="images/ml.jpg" alt="" style="width: 400px;
-                height: 400px;margin-bottom:30px;margin-top:10px">
-            </div>
-            <div class="col-sm-12">
-                <div class="deskripsi">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatum deserunt adipisci ab veritatis, culpa vero laboriosam sint sunt? Soluta neque qui nemo repudiandae facere vitae, tempore nisi amet culpa!</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4">
-                <h5>Division:</h5>
-                <p>Mobile Legends</p>
-            </div>
-            <div class="col-sm-4">
-                <h5>Terms:</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-            </div>
-            <div class="col-sm-4">
-                <h5 style="margin-left:100px">Contact Person:</h5>
-                <p style="margin-left:100px">WA : 085695420986</p>
-                <p style="margin-left:100px">Instagram : @rxr.esport</p>
-            </div>    
-        </div>
         <div class="row">
             <div class="col-sm-12">
-                <div class="berita">
-                    <a href="list-esport.php" class="berita-lain">Back</a>
-                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="nama">Name Team</label>
+                        <input type="text" id="nama" class="form-control">
+                    </div>    
+                    <div class="form-group">
+                        <label for="Pesan">Division</label>
+                        <input type="email" id="nama" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="Pesan">Contact Person</label>
+                        <input type="email" id="nama" class="form-control">
+                    </div>
+                    <label for="Pesan">Image Tournament</label>
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="inputGroupFile02">
+                        <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">Choose file</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Description Team</label><br>
+                        <textarea style="resize:none" class="form-control" rows="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Terms</label><br>
+                        <textarea style="resize:none" class="form-control" rows="10"></textarea>
+                    </div>
+                    <button type="submit" class="kirim" style="margin-top:30px;">Send</button>
+                </form>   
             </div>
         </div>
     </div>
 </section>
 <!-- akhir detil -->
 <!-- footer -->
-<section style="background-color: #2e2d2d;margin-top:20px">
+<section style="background-color: #2e2d2d;">
     <div class="container-fluid">
         <div class="footer">
             <div class="row">

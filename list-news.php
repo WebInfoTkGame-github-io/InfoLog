@@ -13,7 +13,7 @@
     <link rel="shortcut icon" href="images/logo2.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 
-    <title>Team-Up | Tournament</title>
+    <title>Team-Up | News</title>
   </head>
   <body>
     <!-- Header -->
