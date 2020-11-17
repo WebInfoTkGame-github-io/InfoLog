@@ -10,7 +10,7 @@ if(isset($_POST['kirim'])){
     $namaSementara = $_FILES['icon']['tmp_name'];
 
     // tentukan lokasi file akan dipindahkan
-    $dirUpload = "..InfoLog.github.io/folder-farhan/icon-game/";
+    $dirUpload = "../folder-farhan/icon-game/";
 
     // pindahkan file
     $terupload = move_uploaded_file($namaSementara, $dirUpload.$namaFile);
