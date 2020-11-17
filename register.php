@@ -1,12 +1,16 @@
 <?php
 
 require_once("config.php");
-
+$database = new database();
 if(isset($_POST['register'])){
 
     // filter data yang diinputkan
     $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
     $username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_STRING);
+    if($database->register($username,$password,$nama))
+    {
+      header('location:login.php');
+    }
     // enkripsi password
     $password = password_hash($_POST["password"], PASSWORD_DEFAULT);
     $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
@@ -236,7 +240,7 @@ if(isset($_POST['register'])){
                 </form>
             </li>
             <li class="nav-item">
-                <a class="nav-link" style="margin-top:5px;color:white" href="#"><i style="font-size:24px" class="fa">&#xf2bd;</i> Login</a>
+                <a class="nav-link" style="margin-top:5px;color:white" href="login.php"><i style="font-size:24px" class="fa">&#xf2bd;</i> Login</a>
             </li>
         </ul>
         </div>

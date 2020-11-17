@@ -125,6 +125,41 @@
     <title>Web Info Tourney</title>
   </head>
 <body class="bg-light">
+<?php 
+session_start();
+include_once('config.php');
+$database = new database();
+ 
+if(isset($_SESSION['is_login']))
+{
+    header('location:index.php');
+}
+ 
+if(isset($_COOKIE['username']))
+{
+  $database->relogin($_COOKIE['username']);
+  header('location:index.php');
+}
+ 
+if(isset($_POST['login']))
+{
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+    if(isset($_POST['remember']))
+    {
+      $remember = TRUE;
+    }
+    else
+    {
+      $remember = FALSE;
+    }
+ 
+    if($database->login($username,$password,$remember))
+    {
+      header('location:index.php');
+    }
+}
+?>
 <!-- Header -->
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -164,7 +199,7 @@
                 <a class="nav-link" href="#" style="color:white">Tournament</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="blog.php" style="color:white">Blog</a>
+                <a class="nav-link" href="list-news.php" style="color:white">Blog</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" style="color:white">E-sport recruitment</a>
@@ -206,24 +241,21 @@
         <span>u</span>
         <span>n</span>      
         </h4></div>
-        <p>Belum punya akun? <a href="register.php">Daftar di sini</a></p>
-        
-        <form action="timeline.php" method="POST">
-        <div class="w3-container w3-padding-64 box" id="contact">
-            <div class="form-group">
-                <label for="username">Username</label>
-                <input class="form-control" type="text" name="username" placeholder="Username atau email" />
-            </div>
-
-
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input class="form-control" type="password" name="password" placeholder="Password" />
-            </div>
-        
-            <input type="submit" class="btn btn-success btn-block" name="login" value="Masuk" />
-
-        </form>
+<p>Belum punya akun? <a href="register.php">Daftar di sini</a></p>
+<form action="timeline.php" class="form-signin" method="post" action="">
+<div class="w3-container w3-padding-64 box" id="contact">
+  <label for="username" class="sr-only">Username</label>
+  <input type="text" id="username" class="form-control" placeholder="Username" name="username" required autofocus>
+  <label for="password" class="sr-only">Password</label>
+  <input type="password" id="password" class="form-control" placeholder="Password" name="password" required>
+  <div class="checkbox mb-3">
+    <label>
+      <input type="checkbox" value="remember-me" name="remember"> Remember me
+    </label>
+  </div>
+  <button class="btn btn-lg btn-primary btn-block" type="submit" name="login">Sign in</button>
+  <a href="register.php" class="btn btn-lg btn-success btn-block">Register</a>
+</form>
         </div>    
         </div>
 

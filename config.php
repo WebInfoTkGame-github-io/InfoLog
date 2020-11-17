@@ -1,16 +1,57 @@
 <?php
-
-$db_host = "localhost";
-$db_user = "root";
-$db_pass = "";
-$db_name = "admin";
-
-try {    
-    //create PDO connection 
-    $db = new PDO("mysql:host=$db_host;dbname=$db_name", $db_user, $db_pass);
-} catch(PDOException $e) {
-    //show error
-    die("Terjadi masalah: " . $e->getMessage());
-}
+class database {
+var $host = "localhost";
+var $username = "root";
+var $password = "";
+var $database = "admin";
+var $koneksi;
+ 
+	function __construct(){
+		$this->koneksi = mysqli_connect($this->host, $this->username, $this->password,$this->database);
+	}
+ 
+ 
+	function register($username,$password,$nama)
+	{	
+		$insert = mysqli_query($this->koneksi,"insert into tb_user values ('','$username','$password','$nama')");
+		return $insert;
+	}
+ 
+	function login($username,$password,$remember)
+	{
+		$query = mysqli_query($this->koneksi,"select * from tb_user where username='$username'");
+		$data_user = $query->fetch_array();
+		if(password_verify($password,$data_user['password']))
+		{
+			
+			if($remember)
+			{
+				setcookie('username', $username, time() + (60 * 60 * 24 * 5), '/');
+				setcookie('nama', $data_user['nama'], time() + (60 * 60 * 24 * 5), '/');
+			}
+			$_SESSION['username'] = $username;
+			$_SESSION['nama'] = $data_user['nama'];
+			$_SESSION['is_login'] = TRUE;
+			return TRUE;
+		}
+	}
+ 
+	function relogin($username)
+	{
+		$query = mysqli_query($this->koneksi,"select * from tb_user where username='$username'");
+		$data_user = $query->fetch_array();
+		$_SESSION['username'] = $username;
+		$_SESSION['nama'] = $data_user['nama'];
+		$_SESSION['is_login'] = TRUE;
+	}
+} 
+ 
+// try {    
+//     //create PDO connection 
+//     $database = new PDO("mysql:host=$host;dbname=$database", $username, $password);
+// } catch(PDOException $e) {
+//     //show error
+//     die("Terjadi masalah: " . $e->getMessage());
+// }
 
 ?>
