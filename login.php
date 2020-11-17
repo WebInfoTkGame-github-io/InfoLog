@@ -241,11 +241,9 @@ if(isset($_POST['login']))
         <span>u</span>
         <span>n</span>      
         </h4></div>
-        <p>Belum punya akun? <a href="register.php">Daftar di sini</a></p>
+<p>Belum punya akun? <a href="register.php">Daftar di sini</a></p>
 <form action="timeline.php" class="form-signin" method="post" action="">
 <div class="w3-container w3-padding-64 box" id="contact">
-  <img class="mb-4" src="assets/assets/css/bootstrap-solid.svg" alt="" width="72" height="72">
-  <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
   <label for="username" class="sr-only">Username</label>
   <input type="text" id="username" class="form-control" placeholder="Username" name="username" required autofocus>
   <label for="password" class="sr-only">Password</label>
@@ -257,7 +255,6 @@ if(isset($_POST['login']))
   </div>
   <button class="btn btn-lg btn-primary btn-block" type="submit" name="login">Sign in</button>
   <a href="register.php" class="btn btn-lg btn-success btn-block">Register</a>
-  <p class="mt-5 mb-3 text-muted">Warung Belajar &copy; 2019</p>
 </form>
         </div>    
         </div>
