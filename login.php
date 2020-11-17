@@ -242,7 +242,7 @@ if(isset($_POST['login']))
         <span>n</span>      
         </h4></div>
 <p>Belum punya akun? <a href="register.php">Daftar di sini</a></p>
-<form action="timeline.php" class="form-signin" method="post" action="">
+<form action="" class="form-signin" method="post" action="">
 <div class="w3-container w3-padding-64 box" id="contact">
   <label for="username" class="sr-only">Username</label>
   <input type="text" id="username" class="form-control" placeholder="Username" name="username" required autofocus>

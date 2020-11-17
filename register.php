@@ -269,7 +269,7 @@ if(isset($_POST['register'])){
          </div>
         <p>Sudah punya akun? <a href="login.php">Login di sini</a></p>
 
-        <form action="timeline.php" method="POST">
+        <form action="" method="POST">
 
             <div class="form-group">
                 <label for="name">Nama Lengkap</label>
