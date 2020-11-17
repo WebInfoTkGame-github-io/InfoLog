@@ -13,7 +13,7 @@
     <link rel="shortcut icon" href="images/logo2.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 
-    <title>Team-Up | News</title>
+    <title>Team-Up | Tournament</title>
   </head>
   <body>
     <!-- Header -->
@@ -31,13 +31,13 @@
                 <a class="nav-link " style="color:white" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="tournament.php" style="color:white">Tournament</a>
+                <a class="nav-link" href="tournament.php" style="color:white">Tournament</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="list-news.php" style="color:white">News</a>
+                <a class="nav-link" href="list-news.php" style="color:white">News</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="list-esport.php" style="color:white">E-sport recruitment</a>
+                <a class="nav-link active" href="list-esport.php" style="color:white">E-sport recruitment</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" style="color:white">Top-up credit</a>
@@ -63,26 +63,47 @@
 <!-- detil -->
 <section>
     <div class="container">
-        <div class="row">
-            <div class="col-sm-12" style="margin-top:20px">
-                <h3>Tournament Mobile Legends Seasons 2</h3>
+        <div class="row" style="margin-top:20px">
+            <div class="col-sm-12">
+                <h2>Clan Name</h2>
                 <hr>
             </div>
         </div>
         <div class="row text-center">
             <div class="col-sm-12">
-                <img src="images/pacman.jpeg" alt="" style="width: 400px;margin-bottom:30px;margin-top:10px">
+                <img src="images/ml.jpg" alt="" style="width: 400px;
+                height: 400px;margin-bottom:30px;margin-top:10px">
+            </div>
+            <div class="col-sm-12">
+                <div class="deskripsi">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatum deserunt adipisci ab veritatis, culpa vero laboriosam sint sunt? Soluta neque qui nemo repudiandae facere vitae, tempore nisi amet culpa!</p>
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sint, beatae ullam necessitatibus non, ipsa officiis, facilis esse quam quae voluptas obcaecati officia ab pariatur suscipit dignissimos ducimus dolor aliquid?Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ab ut est laudantium. Neque est sapiente sint eligendi quia officiis quasi atque voluptates aut, cum cupiditate eveniet tenetur impedit optio. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti tempora veniam quo nemo quasi pariatur nesciunt rem! Sit asperiores neque veritatis veniam dolore quia qui quidem, illum est quo tempore? Lorem ipsum dolor sit amet consectetur adipisicing elit. At natus ex beatae ad esse nisi aut molestiae quisquam optio cum repellat consequatur perspiciatis <br>reprehenderit libero nesciunt, consectetur minus repellendus aliquid? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum maxime maiores voluptatem aut facilis quis rerum quibusdam, doloremque necessitatibus explicabo deserunt, tempora porro laboriosam fuga vero harum autem voluptas eligendi Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eaque autem nam nihil itaque eum, delectus architecto veritatis magnam recusandae nulla quos non, alias officiis officia voluptatem dolores exercitationem neque.</p>
+            <div class="col-sm-4">
+                <h5>Division:</h5>
+                <p>Mobile Legends</p>
             </div>
+            <div class="col-sm-4">
+                <h5>Terms:</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+            <div class="col-sm-4">
+                <h5 style="margin-left:100px">Contact Person:</h5>
+                <p style="margin-left:100px">WA : 085695420986</p>
+                <p style="margin-left:100px">Instagram : @rxr.esport</p>
+            </div>    
         </div>
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-6">
                 <div class="berita">
-                    <a href="list-news.php" class="berita-lain">Back</a>
+                    <a href="#" class="berita-lain">Login To Register</a>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="berita">
+                    <a href="list-esport.php" class="berita-lain">Back</a>
                 </div>
             </div>
         </div>

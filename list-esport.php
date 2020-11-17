@@ -13,7 +13,7 @@
     <link rel="shortcut icon" href="images/logo2.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 
-    <title>Team-Up | Tournament</title>
+    <title>Team-Up | E-Sport Hiring</title>
   </head>
   <body>
     <!-- Header -->
@@ -55,10 +55,10 @@
                 <a class="nav-link " href="tournament.php" style="color:white">Tournament</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="list-news.php" style="color:white">News</a>
+                <a class="nav-link" href="list-news.php" style="color:white">News</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="list-esport.php" style="color:white">E-sport recruitment</a>
+                <a class="nav-link active" href="list-esport.php" style="color:white">E-sport recruitment</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" style="color:white">Top-up credit</a>
@@ -87,19 +87,19 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="game">
-                    <h1 style="margin-top:30px">News</h1>
+                    <h1 style="margin-top:30px">E-Sport Hiring</h1>
                     <hr>
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row text-center">
             <div class="col-sm-3">
                 <div class="card">
                     <img src="images/pacman.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <a href="detil-news.php" class="baca">
+                        <h5 class="card-title">Clan Name</h5>
+                        <p class="card-text">Division: Mobile Legends</p>
+                        <a href="detil-esport.php" class="baca">
                                 Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
                         </a> 
                     </div>
@@ -109,8 +109,8 @@
                 <div class="card">
                     <img src="images/pacman.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <h5 class="card-title">Clan Name</h5>
+                        <p class="card-text">Division: Mobile Legends</p>
                         <a href="#" class="baca">
                                 Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
                         </a> 
@@ -121,8 +121,8 @@
                 <div class="card">
                     <img src="images/pacman.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <h5 class="card-title">Clan Name</h5>
+                        <p class="card-text">Division: Mobile Legends</p>
                         <a href="#" class="baca">
                                 Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
                         </a> 
@@ -133,8 +133,8 @@
                 <div class="card">
                     <img src="images/pacman.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <h5 class="card-title">Clan Name</h5>
+                        <p class="card-text">Division: Mobile Legends</p>
                         <a href="#" class="baca">
                                 Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
                         </a> 
@@ -145,8 +145,8 @@
                 <div class="card">
                     <img src="images/pacman.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <h5 class="card-title">Clan Name</h5>
+                        <p class="card-text">Division: Mobile Legends</p>
                         <a href="#" class="baca">
                                 Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
                         </a> 
@@ -157,8 +157,8 @@
                 <div class="card">
                     <img src="images/pacman.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <h5 class="card-title">Clan Name</h5>
+                        <p class="card-text">Division: Mobile Legends</p>
                         <a href="#" class="baca">
                                 Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
                         </a> 
@@ -169,8 +169,8 @@
                 <div class="card">
                     <img src="images/pacman.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <h5 class="card-title">Clan Name</h5>
+                        <p class="card-text">Division: Mobile Legends</p>
                         <a href="#" class="baca">
                                 Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
                         </a> 
@@ -181,8 +181,8 @@
                 <div class="card">
                     <img src="images/pacman.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <h5 class="card-title">Clan Name</h5>
+                        <p class="card-text">Division: Mobile Legends</p>
                         <a href="#" class="baca">
                                 Read More &nbsp;<i style="font-size:18px" class="fa">&#xf0a9;</i>
                         </a> 

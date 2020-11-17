@@ -37,7 +37,7 @@
                 <a class="nav-link" href="list-news.php" style="color:white">News</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" style="color:white">E-sport recruitment</a>
+                <a class="nav-link" href="list-esport.php" style="color:white">E-sport recruitment</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" style="color:white">Top-up credit</a>
