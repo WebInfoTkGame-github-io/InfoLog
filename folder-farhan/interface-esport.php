@@ -71,33 +71,33 @@
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <form>
+                <form action="simpan-esport.php" method="post" enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="nama">Name Team</label>
-                        <input type="text" id="nama" class="form-control">
+                        <input type="text" id="nama" name="nama" class="form-control">
                     </div>    
                     <div class="form-group">
                         <label for="Pesan">Division</label>
-                        <input type="email" id="nama" class="form-control">
+                        <input type="email" id="nama" name="divisi" class="form-control">
                     </div>
                     <div class="form-group">
                         <label for="Pesan">Contact Person</label>
-                        <input type="email" id="nama" class="form-control">
+                        <input type="email" id="nama" name="kontak" class="form-control">
                     </div>
                     <label for="Pesan">Image Tournament</label>
                     <div class="custom-file">
-                        <input type="file" class="custom-file-input" id="inputGroupFile02">
+                        <input type="file" class="custom-file-input" name="image" id="inputGroupFile02">
                         <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">Choose file</label>
                     </div>
                     <div class="form-group">
                         <label for="email">Description Team</label><br>
-                        <textarea style="resize:none" class="form-control" rows="5"></textarea>
+                        <textarea style="resize:none" class="form-control" name="deskripsi" rows="5"></textarea>
                     </div>
                     <div class="form-group">
                         <label for="email">Terms</label><br>
-                        <textarea style="resize:none" class="form-control" rows="10"></textarea>
+                        <textarea style="resize:none" class="form-control" name="syarat" rows="10"></textarea>
                     </div>
-                    <button type="submit" class="kirim" style="margin-top:30px;">Send</button>
+                    <button type="submit" name="kirim" class="kirim" style="margin-top:30px;">Send</button>
                 </form>   
             </div>
         </div>
