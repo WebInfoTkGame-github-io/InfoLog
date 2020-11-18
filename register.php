@@ -19,7 +19,7 @@ if(isset($_POST['register'])){
     // menyiapkan query
     $sql = "INSERT INTO users (name, username, email, password) 
             VALUES (:name, :username, :email, :password)";
-    $stmt = $db->prepare($sql);
+    $stmt = $database->prepare($sql);
 
     // bind parameter ke query
     $params = array(
