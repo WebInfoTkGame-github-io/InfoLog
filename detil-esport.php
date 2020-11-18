@@ -54,7 +54,10 @@
                 </form>
             </li>
             <li class="nav-item">
-                <a class="nav-link" style="margin-top:5px;color:white" href="login.php"><i style="font-size:24px" class="fa">&#xf2bd;</i> Login</a>
+                <select name="login" id="login"><a class="nav-link" style="margin-top:5px;color:white"><i style="font-size:24px" class="fa">&#xf2bd;</i> Login</a>
+                <option value="login"><a href="login.php">login</a></option>
+                <option value="logout"><a href="logout.php">logout</a></option>
+                </select>
             </li>
         </ul>
         </div>

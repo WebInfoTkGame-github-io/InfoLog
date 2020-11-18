@@ -213,8 +213,8 @@ if( isset($_POST["login"]) ) {
             </li>
             <li class="nav-item">
                 <select name="login" id="login"><a class="nav-link" style="margin-top:5px;color:white"><i style="font-size:24px" class="fa">&#xf2bd;</i> Login</a>
-                <option value="login"><a href="login.php"></a></option>
-                <option value="logout"><a href="logoout.php"></a></option>
+                <option value="login"><a href="login.php">login</a></option>
+                <option value="logout"><a href="logout.php">logout</a></option>
                 </select>
             </li>
         </ul>
