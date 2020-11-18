@@ -125,40 +125,33 @@
     <title>Web Info Tourney</title>
   </head>
 <body class="bg-light">
-<?php 
+<?php
 session_start();
-include_once('config.php');
-$database = new database();
- 
-if(isset($_SESSION['is_login']))
-{
-    header('location:index.php');
+if( isset($_SESSION["login"]) ) {
+    header("location: index.php");
+    exit;
 }
- 
-if(isset($_COOKIE['username']))
-{
-  $database->relogin($_COOKIE['username']);
-  header('location:index.php');
+require 'function.php';
+if( isset($_POST["login"]) ) {
+
+    $username = $_POST["username"];
+    $password = $_POST["password"];
+
+     $result = mysqli_query($conn, "SELECT * FROM users WHERE username = '$username'");
+    //cek username
+    if( mysqli_num_rows($result) === 1 ) {
+        // cek password 
+        $row = mysqli_fetch_assoc($result);
+        if (password_verify($password, $row["password"])) {
+            // set session
+            $_SESSION["login"] = true;
+            header("location: index.php");
+            exit;
+        }
+    }
+    $error = true;
 }
- 
-if(isset($_POST['login']))
-{
-    $username = $_POST['username'];
-    $password = $_POST['password'];
-    if(isset($_POST['remember']))
-    {
-      $remember = TRUE;
-    }
-    else
-    {
-      $remember = FALSE;
-    }
- 
-    if($database->login($username,$password,$remember))
-    {
-      header('location:index.php');
-    }
-}
+
 ?>
 <!-- Header -->
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -219,7 +212,10 @@ if(isset($_POST['login']))
                 </form>
             </li>
             <li class="nav-item">
-                <a class="nav-link" style="margin-top:5px;color:white" href="#"><i style="font-size:24px" class="fa">&#xf2bd;</i> Login</a>
+                <select name="login" id="login"><a class="nav-link" style="margin-top:5px;color:white"><i style="font-size:24px" class="fa">&#xf2bd;</i> Login</a>
+                <option value="login"><a href="login.php"></a></option>
+                <option value="logout"><a href="logoout.php"></a></option>
+                </select>
             </li>
         </ul>
         </div>
@@ -242,6 +238,9 @@ if(isset($_POST['login']))
         <span>n</span>      
         </h4></div>
 <p>Belum punya akun? <a href="register.php">Daftar di sini</a></p>
+<?php if( isset($error) ) : ?>
+    <p style="color: red; font-style: italic;">username / password salah</p>
+<?php endif; ?>
 <form action="" class="form-signin" method="post" action="">
 <div class="w3-container w3-padding-64 box" id="contact">
   <label for="username" class="sr-only">Username</label>

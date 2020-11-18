@@ -1,40 +1,18 @@
 <?php
-
-include("config.php");
-$database = new database();
-if(isset($_POST['register'])){
-
-    // filter data yang diinputkan
-    $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
-    $username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_STRING);
-    if($database->register($username,$password,$nama))
-    {
-      header('location:login.php');
+session_start();
+if( isset($_SESSION["login"]) ) {
+    header("location: login.php");
+    exit;
+}
+require 'function.php';
+if( isset($_POST["register"]) ) {
+    if( register($_POST) > 0 ) {
+        echo "<script>
+            alert('user baru berhasil ditambahkan!');
+            </script>";
+    }else{
+        echo mysqli_error($conn);
     }
-    // enkripsi password
-    $password = password_hash($_POST["password"], PASSWORD_DEFAULT);
-    $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
-
-
-    // menyiapkan query
-    $sql = "INSERT INTO users (name, username, email, password) 
-            VALUES (:name, :username, :email, :password)";
-    $stmt = $database->prepare($sql);
-
-    // bind parameter ke query
-    $params = array(
-        ":name" => $name,
-        ":username" => $username,
-        ":password" => $password,
-        ":email" => $email
-    );
-
-    // eksekusi query untuk menyimpan ke database
-    $saved = $stmt->execute($params);
-
-    // jika query simpan berhasil, maka user sudah terdaftar
-    // maka alihkan ke halaman login
-    if($saved) header("Location: login.php");
 }
 
 ?>
@@ -45,7 +23,7 @@ if(isset($_POST['register'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Register Pesbuk</title>
+    <title>Register</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
 
@@ -176,6 +154,9 @@ if(isset($_POST['register'])){
         text-shadow: none;
     }
 }
+label {
+    display: block;
+}
     </style>
 
     <title>Web Info Tourney</title>
@@ -240,7 +221,10 @@ if(isset($_POST['register'])){
                 </form>
             </li>
             <li class="nav-item">
-                <a class="nav-link" style="margin-top:5px;color:white" href="login.php"><i style="font-size:24px" class="fa">&#xf2bd;</i> Login</a>
+                <select name="login" id="login"><a class="nav-link" style="margin-top:5px;color:white"><i style="font-size:24px" class="fa">&#xf2bd;</i> Login</a>
+                <option value="login"><a href="login.php"></a></option>
+                <option value="logout"><a href="logoout.php"></a></option>
+                </select>
             </li>
         </ul>
         </div>
@@ -272,23 +256,18 @@ if(isset($_POST['register'])){
         <form action="" method="POST">
 
             <div class="form-group">
-                <label for="name">Nama Lengkap</label>
-                <input class="form-control" type="text" name="name" placeholder="Nama kamu" />
+                <label for="username">username :</label>
+                <input type="text" name="username" id="username">
             </div>
 
             <div class="form-group">
-                <label for="username">Username</label>
-                <input class="form-control" type="text" name="username" placeholder="Username" />
+                <label for="password">password :</label>
+                <input type="password" name="password" id="password">
             </div>
 
             <div class="form-group">
-                <label for="email">Email</label>
-                <input class="form-control" type="email" name="email" placeholder="Alamat Email" />
-            </div>
-
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input class="form-control" type="password" name="password" placeholder="Password" />
+                <label for="password2">konfirmasi password :</label>
+                <input type="password" name="password2" id="password2">
             </div>
 
             <input type="submit" class="btn btn-success btn-block" name="register" value="Daftar" />

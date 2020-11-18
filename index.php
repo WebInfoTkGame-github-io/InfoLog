@@ -1,3 +1,10 @@
+<?php 
+session_start();
+if( isset($_SESSION["login"]) ) {
+    header("location: login.php");
+    exit;
+}
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -16,13 +23,7 @@
     <title>Team-Up | Home</title>
   </head>
   <body>
-  <?php 
-session_start();
-if(! isset($_SESSION['is_login']))
-{
-  header('location:index.php');
-}
-?>
+
     <!-- Header -->
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -82,7 +83,10 @@ if(! isset($_SESSION['is_login']))
                 </form>
             </li>
             <li class="nav-item">
-                <a class="nav-link" style="margin-top:5px;color:white" href="login.php"><i style="font-size:24px" class="fa">&#xf2bd;</i> Login</a>
+                <select name="login" id="login"><a class="nav-link" style="margin-top:5px;color:white"><i style="font-size:24px" class="fa">&#xf2bd;</i> Login</a>
+                <option value="login"><a href="login.php"></a></option>
+                <option value="logout"><a href="logoout.php"></a></option>
+                </select>
             </li>
         </ul>
         </div>
