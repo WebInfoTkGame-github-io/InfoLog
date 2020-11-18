@@ -1,6 +1,6 @@
 <?php
 
-require_once("config.php");
+include("config.php");
 $database = new database();
 if(isset($_POST['register'])){
 
