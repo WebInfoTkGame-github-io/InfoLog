@@ -172,10 +172,10 @@
 <body class="bg-light">
 <?php
 session_start();
-if( isset($_SESSION["login"]) ) {
-    header("location: from-daftar.php");
-    exit;
-}
+// if( isset($_SESSION["login"]) ) {
+//     header("location: from-daftar.php");
+//     exit;
+// }
 require 'function.php';
 if( isset($_POST["login"]) ) {
 
@@ -263,8 +263,8 @@ if( isset($_POST["login"]) ) {
                 <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                <button href="login.php"><a href="#" value="login">login</a></button>
-                <button href="logout.php"><a href="#" value="logout">logout</a></button>
+                <button href="login.php"><a value="login">login</a></button>
+                <button href="logout.php"><a value="logout">logout</a></button>
                 </div>
                 </div>
             </div>

@@ -74,12 +74,18 @@
                 <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
                 </form>
             </li>
-            <li class="nav-item">
-                <select name="login" id="login"><a class="nav-link" style="margin-top:5px;color:white"><i style="font-size:24px" class="fa">&#xf2bd;</i> Login</a>
-                <option value="login"><a href="login.php">login</a></option>
-                <option value="logout"><a href="logout.php">logout</a></option>
-                </select>
-            </li>
+            <div class="nav-item navbar">
+                <div class="dropdown fa" style="font-size:24px">
+                <button class="dropbtn" href="login.php">
+                <i>&#xf2bd;</i>Login
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                <button href="login.php"><a value="login">login</a></button>
+                <button href="logout.php"><a value="logout">logout</a></button>
+                </div>
+                </div>
+            </div>
         </ul>
         </div>
         </nav>

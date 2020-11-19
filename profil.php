@@ -81,8 +81,8 @@
                 <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                <button href="login.php"><a href="#" value="login">login</a></button>
-                <button href="logout.php"><a href="#" value="logout">logout</a></button>
+                <button href="login.php"><a value="login">login</a></button>
+                <button href="logout.php"><a value="logout">logout</a></button>
                 </div>
                 </div>
             </div>
