@@ -258,7 +258,7 @@ if( isset($_POST["login"]) ) {
             </li>
             <div class="nav-item navbar">
                 <div class="dropdown fa" style="font-size:24px">
-                <button class="dropbtn">
+                <button class="dropbtn" href="login.php">
                 <i>&#xf2bd;</i>Login
                 <i class="fa fa-caret-down"></i>
                 </button>
