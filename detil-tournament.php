@@ -105,7 +105,7 @@
         <div class="row">
             <div class="col-sm-6">
                 <div class="berita">
-                    <a href="#" class="berita-lain">Login To Register</a>
+                    <a href="login.php" class="berita-lain">Login To Register</a>
                 </div>
             </div>
             <div class="col-sm-6">

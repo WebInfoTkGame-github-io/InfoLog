@@ -173,7 +173,7 @@
 <?php
 session_start();
 if( isset($_SESSION["login"]) ) {
-    header("location: index.php");
+    header("location: from-daftar.php");
     exit;
 }
 require 'function.php';
@@ -298,6 +298,7 @@ if( isset($_POST["login"]) ) {
   <input type="text" id="username" class="form-control" placeholder="Username" name="username" required autofocus>
   <label for="password" class="sr-only">Password</label>
   <input type="password" id="password" class="form-control" placeholder="Password" name="password" required>
+  <input type="hidden" name="redirect_to" value="<?=$redirect_to?>" />
   <div class="checkbox mb-3">
     <label>
       <input type="checkbox" value="remember-me" name="remember"> Remember me
