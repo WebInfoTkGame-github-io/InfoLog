@@ -31,6 +31,9 @@ if( isset($_POST["register"]) ) {
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <style>
         .box h2{
             margin: 0 0 30px;
@@ -221,7 +224,7 @@ label {
                 </form>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><i>&#xf2bd;</i>Login<i class="fa fa-caret-down"></i></a>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><i>&#xf2bd;</i>Login</a>
                 <div class="dropdown-menu">
                 <a class="dropdown-item" href="login.php">login</a>
                 <a class="dropdown-item" href="logout.php">logout</a>
