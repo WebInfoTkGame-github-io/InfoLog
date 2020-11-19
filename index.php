@@ -75,18 +75,13 @@
                 <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
                 </form>
             </li>
-            <div class="nav-item navbar">
-                <div class="dropdown fa" style="font-size:24px">
-                <button class="dropbtn" >
-                <a href="login.php"><i>&#xf2bd;</i>Login
-                <i class="fa fa-caret-down"></i></a>
-                </button>
-                <div class="dropdown-content">
-                <button><a href="login.php" value="login">login</a></button>
-                <button><a href="logout.php" value="logout">logout</a></button>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><i>&#xf2bd;</i>Login<i class="fa fa-caret-down"></i></a>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="login.php">login</a>
+                <a class="dropdown-item" href="logout.php">logout</a>
                 </div>
-                </div>
-            </div>
+            </li>
         </ul>
         </div>
         </nav>

@@ -171,11 +171,11 @@
   </head>
 <body class="bg-light">
 <?php
-session_start();
-// if( isset($_SESSION["login"]) ) {
-//     header("location: from-daftar.php");
-//     exit;
-// }
+
+if( isset($_SESSION["login"]) ) {
+    header("location: login.php");
+    exit;
+}
 require 'function.php';
 if( isset($_POST["login"]) ) {
 
@@ -190,8 +190,10 @@ if( isset($_POST["login"]) ) {
         if (password_verify($password, $row["password"])) {
             // set session
             $_SESSION["login"] = true;
-            header("location: index.php");
-            exit;
+            $simpan="<div class='alert alert-success'>SignIn berhasil tersambung</div>";
+            echo "<meta http-equiv=\"refresh\"content=\"2;URL=index.php\"/>";
+        }else{
+         $simpan="<div class='alert alert-danger'>Terjadi kesalahan. Silahkan refresh halaman dan ulangi kembali</div>";
         }
     }
     $error = true;
