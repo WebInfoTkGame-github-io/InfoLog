@@ -77,13 +77,13 @@
             </li>
             <div class="nav-item navbar">
                 <div class="dropdown fa" style="font-size:24px">
-                <button class="dropbtn" href="login.php">
-                <i>&#xf2bd;</i>Login
-                <i class="fa fa-caret-down"></i>
+                <button class="dropbtn" >
+                <a href="login.php"><i>&#xf2bd;</i>Login
+                <i class="fa fa-caret-down"></i></a>
                 </button>
                 <div class="dropdown-content">
-                <button href="login.php"><a value="login">login</a></button>
-                <button href="logout.php"><a value="logout">logout</a></button>
+                <button><a href="login.php" value="login">login</a></button>
+                <button><a href="logout.php" value="logout">logout</a></button>
                 </div>
                 </div>
             </div>
