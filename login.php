@@ -216,17 +216,12 @@ if( isset($_POST["login"]) ) {
                 <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
                 </form>
             </li>
-            <div class="nav-item navbar">
-                <div class="dropdown fa" style="font-size:24px">
-                <button class="dropbtn" >
-                <a href="login.php"><i>&#xf2bd;</i>Login</a>
-                </button>
-                <div class="dropdown-content">
-                <button><a href="login.php" value="login">login</a></button>
-                <button><a href="logout.php" value="logout">logout</a></button>
+            <div class="icon ml-4">
+                <h5>
+                <a href="login.php"><button><i class="fa fa-sign-in fa-lg mr-2 mt-2 mb-2 ml-2" data-toggle="tooltip" title="Sign In"></i></button></a>
+                <a href="logout.php"><button><i class="fa fa-sign-out fa-lg mr-2 mt-2 mb-2 ml-2" data-toggle="tooltip" title="Sign Out"></i></button></a>
+                </h5>
                 </div>
-                </div>
-            </div>
         </ul>
         </div>
         </nav>

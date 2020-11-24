@@ -80,11 +80,11 @@
                 <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
                 </form>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><i>&#xf2bd;</i>Login</a>
-                <div class="dropdown-menu">
-                <a class="dropdown-item" href="login.php">login</a>
-                <a class="dropdown-item" href="logout.php">logout</a>
+            <div class="icon ml-4">
+                <h5>
+                <a href="login.php"><button><i class="fa fa-sign-in fa-lg mr-2 mt-2 mb-2 ml-2" data-toggle="tooltip" title="Sign In"></i></button></a>
+                <a href="logout.php"><button><i class="fa fa-sign-out fa-lg mr-2 mt-2 mb-2 ml-2" data-toggle="tooltip" title="Sign Out"></i></button></a>
+                </h5>
                 </div>
             </li>
         </ul>
@@ -589,5 +589,6 @@
     -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="js/jquery-3.2.1.slim.min.js"><\/script>')</script><script src="js/bootstrap.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+      <script src="admin.js"></script>
   </body>
 </html>
